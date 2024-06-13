@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////////
+//////////////// FILE ANALYSIS PROCESS CHECKER ////////////////
+///////////////////////////////////////////////////////////////
+
+
+WORKING DIRECTORY: /home/abood/FINALPROJECT/static/files
+OUTPUT DIRECTORY: /home/abood/FINALPROJECT/reports
+
+
+
+/home/abood/FINALPROJECT/static/files/br.com.f2b.android.reader.apk: FAILED - No folder detected !!!
+/home/abood/FINALPROJECT/static/files/org.sharksoft.appmanager.apk: FAILED - No folder detected !!!
+/home/abood/FINALPROJECT/static/files/com.appbuilder.u12111p16178.apk: FAILED - No folder detected !!!
+
+
+
+Number of file successed: 0 (0%)
+Number of file failed: 3 (100%)

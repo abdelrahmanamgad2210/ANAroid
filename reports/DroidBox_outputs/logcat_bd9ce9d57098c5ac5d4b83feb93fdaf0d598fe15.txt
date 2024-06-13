@@ -1,0 +1,1299 @@
+D/InputEventConsistencyVerifier(  541): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  541):   in com.android.internal.policy.impl.PhoneWindow$DecorView@b406d928
+D/InputEventConsistencyVerifier(  541):   0: sent at 81675000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_RIGHT, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=81675, downTime=81675, deviceId=-1, source=0x101 }
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "2f6465762f696e7075742f6576656e7430", "id": "895338022" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "write", "data": "efbfbd060000efbfbdefbfbd0c000500000000000000", "id": "895338022" } }
+I/ActivityManager(  220): START {act=android.search.action.GLOBAL_SEARCH flg=0x10000000 cmp=com.android.quicksearchbox/.SearchActivity bnds=[5,43][475,103] (has extras) u=0} from pid 541
+I/ARMAssembler(   59): generated scanline__00000077:03515104_00009001_00000000 [131 ipp] (153 ins) at [0xb5d48678:0xb5d488dc] in 0 ns
+I/qtaguid (  220): Failed write_ctrl(s 1 10050) res=-1 errno=1
+W/NetworkManagementSocketTagger(  220): setKernelCountSet(10050, 1) failed with errno -1
+E/Trace   (  981): error opening trace file: No such file or directory (2)
+W/DroidBox(  981): DroidBox: { "DexClassLoader": { "path": "/data/app/com.wigoal.eyeguard-1.apk" } }
+I/ARMAssembler(   59): generated scanline__00000077:03010104_00008001_00000000 [ 89 ipp] (110 ins) at [0xb5d488e0:0xb5d48a98] in 0 ns
+I/dalvikvm-heap(  541): Grow heap (frag case) to 15.117MB for 1463056-byte allocation
+D/InputEventConsistencyVerifier(  541): KeyEvent: ACTION_UP but key was not down.
+D/InputEventConsistencyVerifier(  541):   in com.android.launcher2.Cling@b40a9418
+D/InputEventConsistencyVerifier(  541):   0: sent at 81868000000, KeyEvent { action=ACTION_UP, keyCode=KEYCODE_DPAD_DOWN, scanCode=0, metaState=0, flags=0x8, repeatCount=0, eventTime=81868, downTime=81868, deviceId=-1, source=0x101 }
+W/InputMethodManagerService(  220): Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@b3fd3ea0 (uid=10019 pid=541)
+I/Choreographer(  541): Skipped 192 frames!  The application may be doing too much work on its main thread.
+I/ActivityThread(  981): Pub com.wigoal.eyeguard.mobileadsinitprovider: com.google.android.gms.ads.MobileAdsInitProvider
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1051: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+E/dalvikvm(  981): Could not find class 'android.app.AppOpsManager', referenced from method com.google.android.gms.common.wrappers.PackageManagerWrapper.zzb
+W/dalvikvm(  981): VFY: unable to resolve check-cast 41 (Landroid/app/AppOpsManager;) in Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DynamiteModule(  981): Failed to retrieve remote module version.
+E/ActivityThread(  981): Failed to find provider info for com.google.android.gms.chimera
+I/ActivityThread(  981): Pub com.facebook.app.FacebookContentProvider291645598276138: com.facebook.FacebookContentProvider
+I/ActivityThread(  981): Pub com.wigoal.eyeguard.FacebookInitProvider: com.facebook.internal.FacebookInitProvider
+E/dalvikvm(  981): Could not find class 'android.os.UserManager', referenced from method com.google.android.gms.common.GooglePlayServicesUtilLight.isRestrictedUserProfile
+W/dalvikvm(  981): VFY: unable to resolve check-cast 435 (Landroid/os/UserManager;) in Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1045: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/DynamiteModule(  981): Local module descriptor class for com.google.android.gms.measurement.dynamite not found.
+I/DynamiteModule(  981): Considering local module com.google.android.gms.measurement.dynamite:0 and remote module com.google.android.gms.measurement.dynamite:0
+W/Ads     (  981): Data collection startup failed. No data will be collected.
+W/Ads     (  981): com.google.android.gms.dynamite.DynamiteModule$LoadingException: No acceptable module found. Local version is 0 and remote version is 0.
+W/Ads     (  981): 	at com.google.android.gms.dynamite.DynamiteModule.load(Unknown Source)
+W/Ads     (  981): 	at com.google.android.gms.internal.measurement.zzem.zzg(Unknown Source)
+W/Ads     (  981): 	at com.google.android.gms.internal.measurement.zzen.zzfy(Unknown Source)
+W/Ads     (  981): 	at com.google.android.gms.internal.measurement.zzem$zzb.run(Unknown Source)
+W/Ads     (  981): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/Ads     (  981): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/Ads     (  981): 	at java.lang.Thread.run(Thread.java:856)
+W/Ads     (  981): Failed to connect to measurement client.
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+I/DynamiteModule(  981): Considering local module com.google.android.gms.ads.dynamite:310 and remote module com.google.android.gms.ads.dynamite:0
+I/DynamiteModule(  981): Selected local version of com.google.android.gms.ads.dynamite
+E/dalvikvm(  981): Could not find class 'android.view.autofill.AutofillManager', referenced from method com.facebook.internal.Utility.isAutofillAvailable
+W/dalvikvm(  981): VFY: unable to resolve const-class 2916 (Landroid/view/autofill/AutofillManager;) in Lcom/facebook/internal/Utility;
+W/Ads     (  981): #007 Could not call remote method. @28
+W/Ads     (  981): com.google.android.gms.internal.ads.zzaon: com.google.android.gms.dynamite.DynamiteModule$LoadingException: Failed to instantiate module class: com.google.android.gms.ads.measurement.DynamiteMeasurementManager
+W/Ads     (  981): 	at com.google.android.gms.internal.ads.zzaol.zza(Unknown Source)
+W/Ads     (  981): 	at com.google.android.gms.internal.ads.zzxt.zza(Unknown Source)
+W/Ads     (  981): 	at com.google.android.gms.internal.ads.zzxu.run(Unknown Source)
+W/Ads     (  981): 	at java.lang.Thread.run(Thread.java:856)
+W/Ads     (  981): Caused by: com.google.android.gms.dynamite.DynamiteModule$LoadingException: Failed to instantiate module class: com.google.android.gms.ads.measurement.DynamiteMeasurementManager
+W/Ads     (  981): 	at com.google.android.gms.dynamite.DynamiteModule.instantiate(Unknown Source)
+W/Ads     (  981): 	at com.google.android.gms.internal.ads.zzaol.zza(Unknown Source)
+W/Ads     (  981): 	... 3 more
+W/Ads     (  981): Caused by: java.lang.ClassNotFoundException: com.google.android.gms.ads.measurement.DynamiteMeasurementManager
+W/Ads     (  981): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:65)
+W/Ads     (  981): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+W/Ads     (  981): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+W/Ads     (  981): 	at com.google.android.gms.dynamite.DynamiteModule.instantiate(Unknown Source)
+W/Ads     (  981): 	... 4 more
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f6465762f7572616e646f6d", "id": "453287148" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "efbfbd236fefbfbd2aefbfbdefbfbd2fefbfbdefbfbd6679362befbfbd55efbfbd7eefbfbd", "id": "453287148" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "16" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f6465762f7572616e646f6d", "id": "911502670" } }
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "19" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "3805784eefbfbd721eefbfbd06efbfbd3c0cefbfbd6f6defbfbd5f6c4c6d", "id": "911502670" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/ActivityManager(  220): Unable to start service Intent { act=com.google.android.gms.ads.identifier.service.START pkg=com.google.android.gms }: not found
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): VFY: unable to resolve virtual method 161: Landroid/app/Activity;.isInMultiWindowMode ()Z
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f636f6d2e66616365626f6f6b2e73646b2e6170704576656e74507265666572656e6365732e786d6c", "id": "1358972469" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22616e6f6e796d6f75734170704465766963654755494422", "id": "1358972469" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 2084: Landroid/os/Bundle;.putBinder (Ljava/lang/String;Landroid/os/IBinder;)V
+W/dalvikvm(  981): VFY: unable to resolve static method 2390: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/BackupManagerService(  220): dataChanged but no participant pkg='com.android.providers.settings' uid=10011
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/MetadataRetrieverClient(   62): failed to extract an album art
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1050: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/WVMExtractor(   62): Failed to open libwvm.so
+I/tag     (  981): sdk into
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "ServiceStart": { "name": "com.ad.s.dv.js" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3933312f636d646c696e65", "id": "1790885113" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e6d757369636678000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000702f62643963653964353730393863356163356434623833", "id": "1790885113" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3934342f636d646c696e65", "id": "1923682063" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e73766f782e7069636f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000702f62643963653964353730393863356163356434623833", "id": "1923682063" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936332f636d646c696e65", "id": "1663469968" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e636f6d6d616e64732e6d6f6e6b657900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000356163356434623833", "id": "1663469968" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936352f636d646c696e65", "id": "124563684" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "6c6f676361740044726f6964426f783a570064616c76696b766d3a570041637469766974794d616e616765723a49000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000356163356434623833", "id": "124563684" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936372f636d646c696e65", "id": "1575685742" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f7368002d63007368202e2f7364636172642f65786563757465537472616365496e2e736800000000000000000000000000000000000000000000000000000000000000000000000000000000000000356163356434623833", "id": "1575685742" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936392f636d646c696e65", "id": "1331100478" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "7368002e2f7364636172642f65786563757465537472616365496e2e736800786563757465537472616365496e2e736800000000000000000000000000000000000000000000000000000000000000000000000000000000000000356163356434623833", "id": "1331100478" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3937302f636d646c696e65", "id": "1856601711" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "737472616365002d70003630002d66002d747446002d6f002f7364636172642f626439636539643537303938633561633564346238336665623933666461663064353938666531352e61706b5f7374726163655f6d6f6e6b65792e747874006434623833", "id": "1856601711" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3938312f636d646c696e65", "id": "1986152242" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e7769676f616c2e65796567756172640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f7374726163655f6d6f6e6b65792e747874006434623833", "id": "1986152242" } }
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+I/InputDispatcher(  220): Application is not responding: AppWindowToken{b3fbaa18 token=Token{b427d2b0 ActivityRecord{b3f2f7f0 com.wigoal.eyeguard/.activity.SplashActivity}}}.  It has been 5040.5ms since event, 5005.5ms since wait started.  Reason: Waiting because no window has focus but there is a focused application that may eventually add a window when it finishes starting up.
+I/WindowManager(  220): Input event dispatching timed out sending to application AppWindowToken{b3fbaa18 token=Token{b427d2b0 ActivityRecord{b3f2f7f0 com.wigoal.eyeguard/.activity.SplashActivity}}}
+W/GooglePlayServicesUtil(  981): Google Play services is missing.
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+I/Process (  220): Sending signal. PID: 981 SIG: 3
+W/dalvikvm(  981): VFY: unable to resolve static method 2375: Landroid/provider/Settings$Global;.getInt (Landroid/content/ContentResolver;Ljava/lang/String;I)I
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/WVMExtractor(   62): Failed to open libwvm.so
+I/Process (  220): Sending signal. PID: 220 SIG: 3
+I/Process (  220): Sending signal. PID: 356 SIG: 3
+I/Process (  220): Sending signal. PID: 429 SIG: 3
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f312f636d646c696e65", "id": "1233877566" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1233877566" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f322f636d646c696e65", "id": "1271510705" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1271510705" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f332f636d646c696e65", "id": "1005788008" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1005788008" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f342f636d646c696e65", "id": "330440221" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "330440221" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f352f636d646c696e65", "id": "1090125497" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1090125497" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f362f636d646c696e65", "id": "1870307973" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1870307973" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f372f636d646c696e65", "id": "1959859103" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1959859103" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f382f636d646c696e65", "id": "1637395782" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1637395782" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f392f636d646c696e65", "id": "74377804" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "74377804" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f31302f636d646c696e65", "id": "471206246" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "471206246" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f31312f636d646c696e65", "id": "474070108" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "474070108" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f31322f636d646c696e65", "id": "1331488604" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1331488604" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f31332f636d646c696e65", "id": "878802599" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "878802599" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f31342f636d646c696e65", "id": "688452068" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "688452068" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f32352f636d646c696e65", "id": "1577188542" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1577188542" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f32362f636d646c696e65", "id": "1910539182" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1910539182" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f32372f636d646c696e65", "id": "375406450" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "375406450" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f32382f636d646c696e65", "id": "1598950266" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1598950266" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f32392f636d646c696e65", "id": "1621304125" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1621304125" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f33302f636d646c696e65", "id": "1169877904" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f696e69740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1169877904" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f33312f636d646c696e65", "id": "1298859075" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1298859075" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f33332f636d646c696e65", "id": "2122469039" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "2122469039" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f33342f636d646c696e65", "id": "845996573" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "845996573" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f33382f636d646c696e65", "id": "1880968541" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1880968541" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f34302f636d646c696e65", "id": "1770630475" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1770630475" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f34312f636d646c696e65", "id": "889063419" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "889063419" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f34342f636d646c696e65", "id": "465221975" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "465221975" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f34362f636d646c696e65", "id": "1910118515" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1910118515" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f34372f636d646c696e65", "id": "1005635164" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f756576656e7464000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1005635164" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f34382f636d646c696e65", "id": "214559710" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f71656d75640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "214559710" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f35322f636d646c696e65", "id": "2053467102" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f736572766963656d616e616765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "2053467102" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f35332f636d646c696e65", "id": "805374733" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f766f6c640063656d616e616765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "805374733" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f35362f636d646c696e65", "id": "967189016" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f6e6574640063656d616e616765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "967189016" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f35372f636d646c696e65", "id": "870772318" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f64656275676765726400616765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "870772318" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f35382f636d646c696e65", "id": "492907348" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f72696c64006765726400616765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "492907348" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f35392f636d646c696e65", "id": "809993695" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f73757266616365666c696e6765720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "809993695" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36302f636d646c696e65", "id": "1112834339" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "7a79676f7465002f62696e2f6170705f70726f63657373002d587a79676f7465002f73797374656d2f62696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "1112834339" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36312f636d646c696e65", "id": "1697423042" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f64726d7365727665720073002d587a79676f7465002f73797374656d2f62696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "1697423042" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36322f636d646c696e65", "id": "2029527158" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f6d65646961736572766572002d587a79676f7465002f73797374656d2f62696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "2029527158" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36332f636d646c696e65", "id": "2001891519" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f646275732d6461656d6f6e002d2d73797374656d002d2d6e6f666f726b00696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "2001891519" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36342f636d646c696e65", "id": "1697971974" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f696e7374616c6c64006f6e002d2d73797374656d002d2d6e6f666f726b00696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "1697971974" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36352f636d646c696e65", "id": "1293224660" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f6b657973746f7265002f646174612f6d6973632f6b657973746f72650000696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "1293224660" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36372f636d646c696e65", "id": "679499043" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f73680073746f7265002f646174612f6d6973632f6b657973746f72650000696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "679499043" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f36382f636d646c696e65", "id": "1080544853" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "PKÀ€À€*ï¿½LÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€META-INF/MANIFEST.MFï¿½ï¿½À€À€-ï¿½1ï¿½0Fï¿½@ï¿½CvIï¿½ï¿½Qï¿½&ï¿½ï¿½ï¿½ZbZï¿½Fï¿½Aï¿½ï¿½ï¿½{7,ï¿½ï¿½Vï¿½ Qï¿½Jpï¿½pï¿½ï¿½"ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½Cï¿½\jİ'kï¿½(+U?ï¿½L98ï¿½eR,I6Nï¿½ï¿½ï¿½ay"(ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½?Ysï¿½ï¿½-bï¿½ecFUï¿½!Qï¿½Æš/PKRï¿½"ï¿½À€À€À€ï¿½À€À€À€PKÀ€À€*ï¿½LÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€classes.dexï¿½|\ï¿½Õ•ï¿½ï¿½ï¿½yï¿½ï¿½ï¿½0ï¿½`$ï¿½ï¿½` ï¿½ï¿½hxï¿½ï¿½Pï¿½ï¿½ï¿½&fï¿½ï¿½ï¿½$nï¿½Ñ´ï¿½ï¿½nİ®ï¿½vï¿½ï¿½m]ï¿½vmkï¿½ï¿½ï¿½ï¿½Vï¿½v7ï¿½Zï¿½ï¿½[ï¿½ï¿½]ï¿½]ï¿½Öµnï¿½#Zï¿½ï¿½ï¿½ï¿½ï¿½Lhwï¿½ï¿½rï¿½=ï¿½>Ï½ï¿½ï¿½sï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½/ï¿½gï¿½ï¿½ï¿½å¶ºsï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½ï¿½ï¿½;ï¿½bDtjï¿½ï¿½Mï¿½3À€ï¿½faï¿½#ï¿½Jï¿½Uï¿½ï¿½Ø‰|ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}%/@ï¿½j1ï¿½+Õ ï¿½ï¿½@6ï¿½kï¿½-@;0ï¿½Ç)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½x	xxï¿½0Xjï¿½ï¿½ï¿½<ï¿½,Jï¿½u@9Plï¿½ï¿½Zï¿½ï¿½4m@ï¿½8ï¿½À€Gï¿½cï¿½qï¿½zï¿
+W/DroidBox(  981): ï¿½qï¿½zï¿½ï¿½ï¿½ï¿½:ï¿½F`8|xxxXï¿½uï¿½ï¿½mï¿½ï¿½ï¿½ï¿½ï¿½gï¿½.ï¿½Ğï¿½Oï¿½ï¿½Vï¿½Uï¿½ï¿½1ï¿½zï¿½ï¿½ï¿½ï¿½Uï¿½ï¿½ï¿½ï¿½$pï¿½ï¿½,ï¿½Pï¿½ï¿½h;0ï¿½À€ï¿½ï¿½oÀ€Åï¿½ï¿½ï¿½p;ï¿½ï¿½,ï¿½Pï¿½z`ï¿½nï¿½ï¿½ï¿½ï¿½Ê€ï¿½ï¿½wÀ€_ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½À€1ï¿½ï¿½ï¿½ï¿½Ç€ï¿½EWbNï¿½kï¿½iï¿½ï¿½ï¿½ï¿½Cï¿½yï¿½9ï¿½Uï¿½uï¿½ï¿½ï¿½((ï¿½eï¿½`P	ï¿½z`7ï¿½ï¿½]@/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½}ï¿½Wï¿½oï¿½|ï¿½ï¿½ï¿½	å«ï¿½0|ï¿½	ï¿½ï¿½ï¿½ï¿½:ï¿½4ï¿½Sï¿½eï¿½ï¿½ï¿½ï¿½ï¿½&ï¿½ï¿½ï¿½Zï¿½ï¿½\4ï¿½@7pt 
+W/DroidBox(  981): ï¿½ï¿½ï¿½ï¿½,pï¿½ï¿½Cï¿½ß€ï¿½ï¿½rZï¿½G`=P	4À€}@8|ï¿½ï¿½yï¿½kï¿½ï¿½ï¿½?^ï¿½ï¿½[ï¿½Jï¿½Jï¿½
+W/DroidBox(  981): ï¿½8Lï¿½ï¿½5pxï¿½.ï¿½ï¿½ï¿½%ï¿½-ï¿½Ò†ï¿½,Vï¿½
+W/DroidBox(  981): ï¿½ï¿½hï¿½?0ï¿½ï¿½0ï¿½ï¿½cï¿½ï¿½gï¿½{ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%ï¿½[ï¿½ï¿½Ò=ï¿½ï¿½bï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½À€Ç€pï¿½1ï¿½ï¿½ï¿½Kï¿½×ï¿½À€O?~ï¿½ï¿½ï¿½ï¿½ï¿½+À€ï¿½%@%Pxï¿½-ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½	Ûšï¿½u	[ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½[ï¿½ï¿½Ë›ï¿½d	Kï¿½Ô² ï¿½ï¿½`:ÂMRï¿½ï¿½{ï¿½.`ï¿½ï¿½À€ï¿½ï¿½~ï¿½8À€ï¿½~ï
+W/DroidBox(  981): ½8À€ï¿½~ï¿½ï¿½ï¿½A`8ï¿½ï¿½a`ï¿½ï¿½|5pp8
+W/DroidBox(  981): ï¿½Q`:p&ï¿½p8ï¿½ï¿½Iï¿½ï¿½dï¿½ï¿½) $ï¿½$0ï¿½À€'ï¿½À€Nï¿½ï¿½x?ï¿½À€ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½nn>|ï¿½ï¿½ï¿½ï¿½ï¿½Ç;ï¿½Ow|ï¿½pï¿½jï¿½p4É[ï¿½ï¿½ï¿½<jJ^ï¿½ï¿½ï¿½!/V<ï¿½Yï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½W(ï¿½ï¿½ï¿½XUï¿½eï¿½ï¿½ÕŠï¿½	ï¿½5ï¿½ï¿½ZÅ¿~ï¿½ï¿½_ï¿½ï¿½"ï¿½ï¿½x+Vï¿½ï¿½sï¿½odï¿½|ï¿½]ï¿½ï¿½|ï¿½ï¿½ï¿½3ï¿½ï¿½_ï¿½ï¿½Õªï¿½Uï¿½ï¿½ï¿½qqï¿½BSï¿½"_lï¿½Wï¿½ï¿½R_nï¿½ï¿½+~kvï¿½ï¿½sï¿½ï¿½sï¿½ï¿½ï¿½ï¿½,ï¿½Sï¿½ï¿½gï¿½lT|jï¿½ï¿½ï¿½0ï¿½Uï¿½ï¿½ï¿½Zï¿½ç ©Cï¿½ï¿½ï¿½T[ï¿½ï¿½ï¿½Ú¨ï¿½ï¿½U[Cï¿½&[ï¿½jï¿½ï¿½gâ‡ªï¿½ï¿½ï¿½Z?~ï¿½ï¿½c&9ï¿½ï¿½ï¿½ï¿½>È·(ï¿½ï¿½)ï¿½ÍŠ?lï¿½ï¿½jDï¿½ï¿½xï¿½4Ş€ï¿½5ï¿½c&;ï¿½);ï¿½9ï¿½ï¿½w*ï¿½ï¿½Tï¿½ï¿½iï¿½.ï¿½w)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½ï¿½Mï¿½yï¿½ï¿½ï¿½Xï¿½Jï¿½Ï˜ï¿½ï¿½Uï¿½y\ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½Mï¿½ï¿½&ï¿½ï¿½ï¿½Oï¿½ï¿½	Uï¿½Fï¿½[ï¿½ï¿½ï¿½ï¿½&ï¿½ï¿½Zï¿½!Sï¿½ï¿½*ï¿½f2ï¿½ï¿½Õ¼ï¿½4ï¿½ï¿½uï¿½ï¿½ï¿½!r!ï¿½ï¿½ï¿½{dPï¿½WÀ€ï¿½ï¿½RRï¿½6H:Dï¿½-ï¿½ï¿½ï¿½!ï¿½1ï¿½ï¿½/ï¿½ï¿½ï¿½9ï¿½Q4_ï¿½BEï¿½ï¿½ï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f7362696e2f61646264002f73680073746f7265002f646174612f6d6973632f6b657973746f72650000696e002d2d7a79676f7465002d2d73746172742d73797374656d2d73657276657200000000000000000000000000000000000000000000000000", "id": "1080544853" } }
+W/DroidBox(  981): ½ï¿½ï¿½ï¿½ï¿½=Dï¿½ï¿½O)jï¿½ï¿½ï¿½ï¿½ï¿½~Sï¿½Gï¿½ï¿½0ï¿½ï¿½Wï¿½ï¿½yï¿½ï¿½î•´[ï¿½ï¿½eï¿½j%gï¿½rï¿½Jï¿½Lï¿½ï¿½*ï¿½ï¿½>ï¿½ï¿½ÛŠï¿½ï¿½ï¿½Eï¿½*ï¿½ï¿½zkUï¿½ï¿½ZUï¿½Wï¿½nï¿½ï¿½%ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½8aï¿½ï¿½ï¿½Kï¿½6ï¿½o@ï¿½ï¿½}ï¿½ï¿½Bï¿½bï¿½ï¿½~%ï¿½fï¿½wE_ï¿½ï¿½2zQRï¿½ï¿½<xï¿½ï¿½(ï¿½ï¿½äŸ‰}ï¿½jï¿½=+ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½+ï¿½ï¿½ï¿½ï¿½AZ#ØŸï¿½ï¿½ï¿½Ä¾tï¿½ï¿½O|ï¿½ï¿½'!ï¿½É¢ï¿½'ï¿½ï¿½>Glï¿½ï¿½3$Eï¿½ï¿½oï¿½ï¿½ï¿½ï¿½uï¿½2ï¿½-ï¿½Yï¿½K1<ï¿½ï¿½ï¿½iï¿½ï¿½Iï¿½Jï¿½Eï¿½Gï¿½Uï¿½g%ï¿½Eï¿½ï¿½?#cOï¿½Zï¿½_ï¿½ï¿½Jï¿½Wï¿½ï¿½}Cï¿½7ï¿½ï¿½1ï¿½%]Nï¿½Hï¿½Ñ%]Gï¿½OÒµï¿½ï¿½ï¿½ï¿½ubï¿½ï¿½ï¿½ï¿½ï¿½oï¿½ï¿½Aï¿½%ï¿½Bï¿½ï¿½Fï¿½ï¿½:ï¿½>Ó_ï¿½ï¿½ï¿½ï¿½*]ï¿½ï¿½8ï¿½Iï¿½7aï¿½rzï¿½JoVï¿½-*ï¿½Eï¿½ï¿½ï¿½*ï¿½=0ï¿½Õ’nCï¿½fï¿½C_ï¿½ï¿½Qï¿½ï¿½Qï¿½ï¿½UJ^ï¿½ï¿½^%ï¿½*ï¿½WÉ«ï¿½ï¿½ZÉ«ï¿½Ü§ï¿½>%ï¿½)yï¿½ï¿½CVè½’ï¿½(Zï¿½ï¿½vEï¿½ï¿½aï¿½Sï¿½ï¿½Uï¿½ï¿½)yVê½’ï¿½(ï¿½/ï¿½ï¿½vï¿½ß®ï¿½Cï¿½w`DFï¿½]ï¿½Eï¿½*ï¿½Bï¿½ï¿½ï¿½zHï¿½zUO="Nï¿½× ï¿½jï¿½vï¿½ï¿½Nï¿½nTï¿½mTï¿½FXÚï¿½(ï¿½_ï¿½]Jï¿½ï¿½9ï¿½[ï¿½wcï¿½qï¿½
+W/DroidBox(  981): ï¿½ï¿½ï¿½ï¿½ï¿½*
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3232302f636d646c696e65", "id": "1953413451" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "73797374656d5f736572766572000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1953413451" } }
+W/DroidBox(  981): ï¿½ï¿½ï¿½*}ï¿½ï¿½oï¿½Jï¿½Qï¿½&ï¿½nBï¿½ï¿½nVï¿½fï¿½\Nï¿½ï¿½tï¿½*ßªÒ­	ï¿½ï¿½Tï¿½Mï¿½×®ï¿½ï¿½jwï¿½ï¿½Ùï¿½?ï¿½ï¿½ï¿½ï¿½|ï¿½ï¿½ï¿½Eï¿½ï¿½Iï¿½Bï¿½ï¿½}ï¿½ï¿½w)yï¿½ï¿½Mï¿½c'ï¿½7mï¿½ï¿½$ï¿½ï¿½ï¿½dï¿½vÈ’tï¿½Lï¿½gÊ–ï¿½BEï¿½fK:ï¿½ï¿½5À€ï¿½ï¿½ï¿½ï¿½Hï¿½ï¿½%ï¿½D/ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½-ï¿½qIï¿½ï¿½;ï¿½ï¿½ï¿½$ï¿½ï¿½.ï¿½ï¿½*Iï¿½ï¿½eï¿½nUï¿½0ï¿½ï¿½ï¿½ï¿½<ï¿½ï¿½dï¿½Ã‚\ï¿½aï¿½ï¿½W$5ï¿½Fï¿½&ï¿½ï¿½ï¿½Iï¿½ï¿½hï¿½Iï¿½mï¿½ï¿½$ï¿½2ï¿½1ï¿½Qï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½eï¿½ï¿½gÀ€ï¿½@pï¿½ï¿½@L7ï¿½Spï¿½s%iï¿½ï¿½6F>ï¿½sï¿½qï¿½k:ï¿½ï¿½Å‡iVï¿½ï¿½ï¿½XMï¿½B}ï¿½ï¿½Wdï¿½{ï¿½~Sï¿½Jï¿½9ï¿½ï¿½[ï¿½dï¿½+ï¿½ï¿½ï¿½	ï¿½ï¿½ï¿½`ï¿½J_ï¿½ï¿½oï¿½Hï¿½ï¿½Weï¿½Jï¿½ï¿½ï¿½)}uï¿½ï¿½Jï¿½Ë ï¿½ï¿½ï¿½ï¿½dï¿½ï¿½J_ï¿½ï¿½|ï¿½^#]ï¿½ï¿½>ï¿½ï¿½~{ï¿½ï¿½ß‘Aß«ï¿½ï¿½ï¿½!Cï¿½?ï¿½ï¿½;3ï¿½ï¿½Uï¿½3ï¿½?ï¿½ï¿½2ï¿½Wï¿½ï¿½ï¿½O+ï¿½ï¿½ï¿½)ï¿½ï¿½Qï¿½=ï¿½ï¿½ï¿½7e(ï¿½ï¿½iï¿½ï¿½3ï¿½W*}Kï¿½ï¿½JßšAï¿½]ï¿½ï¿½2ï¿½Û”^Pï¿½}ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½o8ï¿½ï¿½Dï¿½ï¿½ï¿½[ï¿½Æ‡ï¿½ï¿½1ï¿½.ï¿½ï¿½ï¿½ï¿½eï¿½ï¿½1Gï¿½eï¿½ï¿½bï¿½OBq5ï¿½#ï¿½jï¿½_!Oï¿½ï¿½))ï¿½ï¿½-ï¿½<ï¿½
+W/DroidBox(  981): ½-ï¿½<ï¿½7ï¿½ï¿½`ï¿½ÕŠwï¿½6Vs{ï¿½smï¿½vS/$ï¿½ï¿½wï¿½jÈ¸%ï¿½6%ï¿½$rï¿½.ï¿½ï¿½ï¿½ï¿½2×‘~ï¿½ï¿½3%ï¿½~.Î¢eï¿½|ï¿½rï¿½Bï¿½%ybï¿½ï¿½]ï¿½ï¿½Qï¿½ï¿½ï¿½Ğ”ï¿½nï¿½ï¿½ï¿½3ï¿½ï¿½bï¿½nï¿½#ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñ¢Uï¿½96,F
+W/DroidBox(  981): sï¿½ï¿½Cï¿½ï¿½|sï¿½İ‡ï¿½ï¿½?G\ï¿½Qï¿½ï¿½ï¿½ï¿½kï¿½ ï¿½1_ï¿½5ï¿½ï¿½ï¿½4ï¿½Ñ³ï¿½ï¿½À€ï¿½ï¿½ï¿½nï¿½yï¿½ï¿½=ï¿½ï¿½'ï¿½ï¿½ï¿½ï¿½ë¡¯ï¿½zï¿½ï¿½Â¬ï¿½Hï¿½e]qmaï¿½ï¿½.ï¿½ï¿½H7Iï¿½ï¿½ï¿½&ï¿½3ï¿½9;ï¿½:ï¿½ï¿½q:ï¿½ï¿½gï¿½ï¿½qÓ©ï¿½=#tï¿½ï¿½sï¿½ï¿½1ï¿½ï¿½ï¿½Eï¿½ï¿½ï¿½Iï¿½ï¿½gï¿½Cï¿½^ï¿½ï¿½Mï¿½)ï¿½U4ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½2hï¿½RZï¿½6ï¿½sï¿½vï¿½ï¿½ï¿½ï¿½+ï¿½sï¿½ï¿½yFKK7ï¿½dÌ¡B-ï¿½j=yï¿½y%Vrï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½(gï¿½nï¿½ï¿½0ï¿½ï¿½Rï¿½ï¿½wï¿½ï¿½ï¿½	ï¿½uoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sï¿½Ö¶	ï¿½Õ‹ï¿½ï¿½vï¿½%ï¿½ï¿½ï¿½Wzï¿½[ï¿½Pï¿½cï¿½ï¿½ï¿½/ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Rc}ï¿½)Gï¿½ï¿½j}ï¿½9ï¿½ï¿½Xï¿½ï¿½H;ï¿½|~^=ï¿½ï¿½HIï¿½ï¿½ï¿½{<ï¿½ï¿½ï¿½~nï¿½mï¿½h_ï¿½ï¿½.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½U"ï¿½kï¿½ï¿½ï¿½#ï¿½ï¿½2ï¿½ï¿½4ï¿½ï¿½ï¿½İŠï¿½ï¿½Y9Tï¿½ï¿½Æ¾~o653ï¿½_)}>ï¿½jï¿½ï¿½ï¿½ï¿½^ï¿½Â­ï¿½qï¿½ï¿½æˆ‹ORï¿½ï¿½|ï¿½^ï¿½ï¿½Y>ï¿½ï¿
+W/DroidBox(  981): ï¿½Y>ï¿½ï¿½oï¿½7ï¿½ï¿½ï¿½}ï¿½ï¿½uj}T<e7ï¿½ï¿½rkÑ·ï¿½ï¿½	\{ï¿½3ï¿½ï¿½Bï¿½*ï¿½Hï¿½'ï¿½ï¿½Zhï¿½ï¿½ï¿½ï¿½ï¿½gfï¿½5ï¿½e+ï¿½kÇ’ï¿½ï¿½ï¿½ktï¿½ï¿½Sï¿½İ£^ï¿½Æ9ï¿½ï¿½C
+W/DroidBox(  981): ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Rï¿½s'Ê•ï¿½ï¿½#ï¿½"Xlvvï¿½Sï¿½ï¿½+]ï¿½ï¿½*ï¿½ï¿½fï¿½ï¿½]rï¿½ï¿½ï¿½9ï¿½ï¿½ï¿½ï¿½Ü–h.Â¼ï¿½|ï¿½ï¿½)-[ï¿½ï¿½Uï¿½e+Sï¿½Ò´lEJVï¿½ï¿½ï¿½7ï¿½ï¿½fï¿½
+W/DroidBox(  981): ï¿½ï¿½)}ï¿½ï¿½1ï¿½aO	pï¿½E}-ï¿½ï¿½ï¿½ï¿½æ’‹ï¿½6ï¿½{Ù‚vï¿½Çï¿½ï¿½ï¿½Lvï¿½^0ï¿½ßšï¿½6ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½=ÏŸTï¿½ÉŒuï¿½.Rwï¿½"c)_8ï¿½ï¿½×‡oCJv -Û˜ï¿½Ò²ï¿½Sï¿½ï¿½ï¿½ï¿½Bï¿½
+W/DroidBox(  981): Eï¿½ï¿½ï¿½ï¿½ï¿½&ï¿½ï¿½9ï¿½ï¿½$ï¿½2gï¿½ï¿½1M	ï¿½Mï¿½ï¿½U2bï¿½ï¿½2fï¿½2Eï¿½ï¿½n8ï¿½=ï¿½ko*{'ï¿½ï¿½ï¿½srï¿½=ï¿½ï¿½Lï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½6ï¿½ï¿½9ï¿½(ï¿½pfï¿½ï¿½k;ï¿½x59pjï¿½È”Ç’Oï¿½ï¿½TWï¿½ooï¿½ï¿½b_ï¿½C"ï¿½eï¿½w?BTï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½ï¿½rï¿½ï¿½,ï¿½í­²í³½ï¿½ï¿½~T6K?ï¿½ï¿½ï¿½nï¿½_ï¿½4kï¿½ï¿½jï¿½
+W/DroidBox(  981): ï¿½~bï¿½ï¿½ï¿½BÓ–ujVï¿½OyZï¿½ï¿½wÌ˜ï¿½ï¿½ï¿½Sï¿½<ï¿½wrï¿½ï·ï¿½ï¿½#Qï¿½ï¿½ï¿½7ï¿½ï¿½ï¿½|ï¿½wï¿½-ï¿½ï¿½*YoUï¿½Xï¿½ï¿½ï¿½a3Ù¦Jï¿½ï¿½ï¿½qï¿½iï¿½uï¿½ï¿½ï¿½*ï¿½w}ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+W/DroidBox(  981): ½ï¿½ï¿½ï¿½3ï¿½ï¿½'ï¿½?]ï¿½Z".ï¿½ï¿½ï¿½5ï¿½I96sZj|/ï¿½ï¿½wï¿½g`ï¿½bzwï¿½cï¿½|éï¿½Wï¿½ï¿½7ï¿½ï¿½ï¿½ï¿½ï¿½^ï¿½v4ï¿½Ú±
+W/DroidBox(  981): ï¿½ï¿½jï¿½ï¿½mï¿½-ï¿½ï¿½ï¿½)ï¿½#z9L|V	bKï¿½l>ï¿½ï¿½]^#Mï¿½yï¿½rrï¿½/ï¿½ï¿½ï¿½:_ï¿½<ï¿½Ñf]ï¿½ï¿½ï¿½ï¿½ï¿½w\ï¿½%4ï¿½ï¿½5Iï¿½ï¿½ï¿½=ï¿½cï¿½ï¿½_#ï¿½Y>ï¿½ï¿½ï¿½yï¿½ï¿½E6=dqï¿½ï¿½'ï¿½Y=ï¿½%ï¿½ï¿½xDï¿½ï¿½ï¿½)WPï¿½Vï¿½=Rï¿½5,ï¿½[Ä¾ï¿½ï¿½ï¿½ï¿½]Ö¼ï¿½ï¿½ï¿½MVÎ‚uï¿½&ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½wf+ï¿½ï¿½6É¸ï¿½ï¿½wï¿½\]nï¿½aï¿½ï¿½ï¿½UyWï¿½j%ï¿½sï¿½jï¿½qj5ï¿½gï¿½pUï¿½ï¿½9ï¿½5ï¿½>ï¿½Eï¿½ï¿½ï¿½|>ï¿½Yï¿½ï¿½Mï¿½Esï¿½cï¿½xï¿½%ï¿½"ï¿½Üš/ï¿½kï¿½ï¿½}rï¿½hï¿½&aï¿½ï¿½@ï¿½)OLï¿½yz(uï¿½Û¥uï¿½Zï¿½{ï¿½)WTÚ¶5ï¿½_8ï¿½{ï¿½_Lï¿½ï¿½ï¿½}ï¿½ï¿½Hï¿½
+W/DroidBox(  981): ï¿½ï¿½]Uï¿½Ê§ï¿½Lï¿½3>]&mï¿½[dï¿½kÔ¨sï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½?ï¿½-BØƒï¿½.#ï¿½ï¿½ï¿½:/ï¿½(TuYLï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½xu	ï¿½Mï¿½uï¿½ï¿½-ï¿½7ï¿½	ï¿½7ï¿½ï¿½ï¿½ï¿½ï¿½.ï¿½É˜ï¿½Gï¿½<ï¿½xbï¿½Bï¿½ï¿½ï¿½Lï¿½jeï¿½+ï¿½%nWS.ï¿½Fİ©5hï¿½$ï¿½ï¿½ï¿½ï¿½9ï¿½cï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½bï¿½ï¿½ï¿½2ï¿½aï¿½ï¿½"ï¿½ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ÄªIYï¿½,ï¿½ï¿½>-Ü7Õï¿½ï¿½Sï¿½
+W/DroidBox(  981): ï¿½ï¿½Sï¿½ï¿½ï¿½ï¿½u[ï¿½Guï¿½ï¿½Tï¿½ï¿½\ï¿½ï¿½âº±ï¿½ï¿½eï¿½ï¿½ï¿½yï¿½_lï¿½lï¿½gï¿½fï¿½$ï¿½Nï¿½ï¿½ï¿½nï¿½cJ6ï¿½ï¿½5ï¿½Æœpï¿½ï¿½%ï¿½ï¿½Fï¿½ï¿½Ğ®yPt~Cï¿½ï¿½ï¿½9Î–q/[ï¿½wï¿½ï¿½ï¿½Z)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½9v/ï¿½ï¿½Nï¿½7.ï¿½ï¿½ï¿½ï¿½rï¿½E<ï¿½ï¿½ï¿½j@]%T*Fï¿½Wbï¿½qï¿½'ï¿½ï¿½,Wï¿½ï¿½.ï¿½ï¿½zï¿½ï¿½,ï¿½VHï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½aï¿½rï¿½eb/ï¿½w;@ï¿½wâ¾ï¿½ï¿½w>ï¿½ï¿½ï¿½(ï¿½j)iï¿½ï¿½ï¿½}ï¿½rï¿½}Sï¿½,~_pï¿½ï¿½ï¿½s/ï¿½ï¿½sï¿½ï¿½à¢”ï¿½ß¬ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½&wï¿½ï¿½ï¿½muï¿½İ¯ï¿½VdÇ­ï¿½ï¿½wï¿½V4#oEï¿½ï¿½\{	ï¿½Eï¿½.ï¿½uï¿½ï¿½ï¿½tï¿½ï¿½Hï¿½ï¿½ï¿½'ï¿½d9ï¿½ï¿½C6gVIvï¿½ï¿½oï¿½9ï¿½7ß™ï¿½ï¿½\ï¿½qvgï¿½n{.ï¿½pï¿½ï¿½ï¿½V9ï¿½ï¿½ï¿½9ï¿½Pî¤œï¿½ï¿½,ï¿½9Nï¿½ï¿½bï¿½gï¿½hï¿½Q`ï¿½ï¿½ï¿½Tï¿½Hx+ï¿½.aXï¿½cï¿½Jï¿½%ï¿½ï¿½yS>ï¿½ï¿½)ï¿½~ï¿½oï¿½Sjï¿½wï¿½ï¿½Jï¿½ï¿½ï¿½dï¿½ï¿½ï¿½hylï¿½;Iï¿½cï¿½k0ï¿½ï¿½ï¿½_ï¿½.ï¿½Zsï¿½eï¿½Qï¿½ï¿½=:ï¿½(Ñ¾ï¿½ï¿½ï¿½Å½4ï¿½	ï¿½ï¿½ï¿½}ï¿½Vï¿½hï¿½D<ï¿½ï¿½ï¿½g2ï¿½hï¿½rU;Dï¿½ÊŸ/ï¿½4ï¿½ï¿½*ï¿½xï¿½ï¿½ï¿½gï¿½xÉ–ï¿½oZï¿½gï¿½ï¿½G#dï¿½ï¿½otï¿½ï¿½rcï¿½ï¿½>y;ï¿½!wï¿½ï¿½_"nï¿½+XÈ½qï¿½rg9ï¿½ï¿½rK[Fï
+W/DroidBox(  981): ¿½ï¿½rK[Fï¿½jxAï¿½ï¿½ï¿½arï¿½ï¿½ï¿½Wï¿½{ï¿½].ï¿½>L3ï¿½ï¿½nï¿½Myï¿½ï¿½|Vc?ï¿½Ú¨ï¿½g#ï¿½ï¿½ï¿½#ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½kvï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½(ï¿½Z"ï¿½KiY>dyï¿½ï¿½Q`ï¿½ï¿½ï¿½È¶M;ï¿½Tï¿½ï¿½}Xï¿½<Aï¿½Ü©1*ï¿½Ş’-ï¿½Bï¿½ 6ï¿½!sï¿½d%[!Ò²bÈ–Avï¿½/Wï¿½ï¿½sï¿½d+ï¿½2ï¿½ï¿½YÈ•+}Mkï¿½ï¿½ï¿½ï¿½eÒŸï¿½~ÌµBï¿½b?N>ï¿½[ï¿½ï¿½\ï¿½ï¿½[ï¿½ï¿½Uï¿½Bx1y~
+W/DroidBox(  981): Ã›:ï¿½O1ï¿½ï¿½ï¿½2ï¿½{ï¿½ï¿½ï¿½%ï¿½`ï¿½wï¿½wDï¿½Vm/ï¿½ï¿½wï¿½|2ï¿½-Oï¿½\1ï¿½ï¿½L1ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½liï¿½~rï¿½ï¿½mï¿½ï¿½p
+W/DroidBox(  981): Zï¿½ï¿½kAï¿½&ï¿½ï¿½Tï¿½kï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½ï¿½ï¿½Û§Bï¿½ï¿½ï¿½'ï¿½'{.ï¿½Xï¿½1Å°ï¿½{ï¿½qï¿½I+@ï¿½ï¿½ï¿½ï¿½ï¿½Tï¿½ï¿½ï¿½Ú¤dï¿½w)ï¿½ï¿½Å†7ï¿½[Hï¿½8ï¿½ï¿½yï¿½ï¿½2Íƒ|ï¿½ï¿½]ï¿½Bï¿½ï¿½ï¿½#ï¿½ï¿½Vï¿½xï¿½qï¿½ï¿½ï¿½_^HgjU\ï¿½ï¿½ï¿½1Lï¿½ï¿½ï¿½/sÓ™ï¿½ï¿½ï¿½ï¿½ï¿½%y8ï¿½ï¿½Pï¿½ï¿½ï¿½Z}ï¿½ï¿½.Ô½ï¿½ï¿½wï¿½ï¿½ï¿½8ï¿½ï¿½ï¿½bdï¿½%ï¿½o~Cdï¿½ï¿½oï¿½%d3ï¿½Ö‰=ï¿½Lï¿½ï¿½ï¿½ï¿½	ï¿½ï¿½*ï¿½ï¿½pï¿½#yï¿½9ï¿½rÈµ]ï¿½ï¿½ï¿½'<ï¿½q?ï¿½qï¿½Õ“ï¿½ï¿½ï¿½|ï¿½ï¿½Xzï¿½ï¿½/ï¿½ÖˆÀ€Ä€ï¿½Nï¿½eï¿½ï¿½Uï¿½eï¿½Jï¿½ï¿½ï¿
+W/DroidBox(  981): Jï¿½ï¿½ï¿½@ï¿½ï¿½Ü–v!ï¿½ÏŠï¿½ï¿½jï¿½mï¿½V9À€ï¿½À€oskï¿½7Yï¿½ï¿½+Gï¿½fï¿½[ï¿½iï¿½ï¿½ïƒ¹ï¿½Zï¿½ï¿½ï¿½Ø¦YKï¿½ï¿½jï¿½ï¿½ï¿½iYCï¿½Yï¿½9ï¿½ï¿½pï¿½ï¿½2rï¿½ï¿½d}ï¿½ï¿½eï¿½09ï¿½ï¿½`Í¬ï¿½ï¿½ï¿½ï¿½Yï¿½HÍº	ï¿½Æˆï¿½ï¿½ï¿½H`ï¿½ï¿½eï¿½|t-lÒ¯Ş‚Kï¿½ï¿½d*ï¿½ï¿½Åï¿½nï¿½â‰’ï¿½ï¿½Rrï¿½ï¿½&ï¿½!^ï¿½cï¿½Eï¿½=ï¿½2ï¿½413ï¿½ï¿½ï¿½ï¿½Ò¯ï¿½ï¿½ ï¿½ï¿½"ï¿½ï¿½$ï¿½;;5Jï¿½uhR>$ï¿½ï¿½ï¿½ï¿½~1vï¿½ï¿½Õ›ï¿½Gï¿½,*mQï¿½ï¿½ï¿½ï¿½)yï¿½ï¿½tï¿½Jï¿½ï¿½ï¿½UzÀ€ï¿½ï¿½ï¿½'ï¿½ï¿½dï¿½\.ï¿½ï¿½ï¿½&ï¿½0ï¿½PmUï¿½Aï¿½ï¿½ï¿½j_Lï¿½v'ï¿½ï¿½PtBï¿½Rï¿½S)ï¿½rDï¿½Ptï¿½ï¿½?U'ï¿½BJVï¿½ï¿½r9ï¿½oï¿½oï¿½ï¿½ï¿½ï¿½ï¿½	rVï¿½@U ï¿½"ï¿½$ï¿½ï¿½zï¿½V%N'ï¿½ï¿½cï¿½9ï¿½?ï¿½ï¿½ï¿½	=.+ryï¿½}5ï¿½uï¿½wï¿½7FÇ‚ï¿½1ï¿½ï¿½5EBï¿½+È¾Ë ï¿½ï¿½ï¿½Mï¿½VSo+=ï¿½ï¿½ï¿½l;8ï¿½Gï¿½ï¿½fzï¿½[ï¿½7ï¿½ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½Ì¨/ï¿½>ï¿½~20ï¿½3}ï¿½×ï¿½ï¿½)Yï¿½ï¿½Hï¿½dï¿½ï¿½~:ï¿½ï¿½ï¿½ï¿½k?ï¿½ï¿½Ç¼ï¿½ï¿½Ã‡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½hGï¿½xï¿½oï¿½ï¿½mï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½4ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½kï¿½ï¿½ï¿½I;ï¿½ï¿½Cï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½Ú8481Ü–ï¿½ï¿½ï¿½ï¿½ï¿½
+W/DroidBox(  981): ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½57ï¿½4Eï¿½Zï¿½zï¿½ï¿½hjthï¿½_ï¿½6qï¿½7ï¿½kK&ï¿½5ï¿½ï¿½ï¿½cï¿½}3]Ş¡ï¿½ï¿½ï¿½cmï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½Cï¿½ï¿½Z:'ï¿½zï¿½ï¿½>ï¿½mGgï¿½@ï¿½hï¿½ï¿½ï¿½>ï¿½Ú®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½>ï¿½ï¿½@gw]×µï¿½6ï¿½=ï¿½ï¿½@;Mï¿½ï¿½}ï¿½Î¡ï¿½ï¿½ï¿½ï¿½fï¿½domï¿½li#ï¿½FYmï¿½ï¿½ï¿½@2'ï¿½NZ{'eï¿½ï¿½5ï¿½ï¿½$ï¿½ï¿½Nï¿½ï¿½dï¿½ï¿½ï¿½ï¿½ï¿½$ï¿½Hï¿½j%kW+ï¿½ï¿½Zï¿½ï¿½ï¿½ï¿½ï¿½rï¿½tï¿½ï¿½ï¿½ï¿½wsï¿½n(Pï¿½ï¿½-%ï¿½İ©ï¿½ï¿½,fvxï¿½ï¿½ï¿½ï¿½;	Æ£ï¿½ï¿½\?Mcï¿½ï¿½L(yï¿½ï¿½6,*ï¿½	Dï¿½z|}S,6Hï¿½hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Hï¿½svFï¿½Eï¿½ï¿½Ò¹ï¿½#ï¿½Pduï¿½Å£cz"aï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½Rï¿½/Vï¿½ï¿½Oï¿½Oï¿½ï¿½9uï¿½z,Iï¿½ï¿½Uï¿½ï¿½h 8H$y0ï¿½ï¿½Tï¿½ Sï¿½Aï¿½z"ï¿½YV-ï¿½ï¿½Tï¿½ï¿½<ï¿½Tï¿½ï¿½ï¿½^ï¿½ Gï¿½$ï¿½ï¿½6ï¿½ï¿½=NrÉ…uï¿½&ï¿½ï¿½c'0:ï¿½<ï¿½È‘ï¿½io`Rï¿½&Û£Ó‘`Û©1=ï¿½E#ï¿½ï¿½fAï¿½ï¿½zï¿½Lï¿½ï¿½H 9ï¿½ï¿½$ï¿½'ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ÒºE3ï¿½uï¿½ï¿½Xï¿½T2ï¿½!ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½{É½@ï¿½Hï¿½ï¿½eï¿½`X7ï¿½ï¿½}Ñ“z|n+Íª~ï¿½_[ï¿½ï¿½1,ï¿½9M,ï¿½	ï¿½xUï¿½ï¿½Lb	&ï¿½wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½cï¿½ï¿½ï¿½ï¿½#ï¿½E
+W/DroidBox(  981): ¿½ï¿½#ï¿½Eï¿½ï¿½hï¿½ï¿½t2ï¿½j$ï¿½ï¿½ï¿½E-Å­ï¿½D,8İ£'ï¿½1X+ï¿½ï¿½gBï¿½É”ï¿½lE)ï¿½r#m3rï¿½ï¿½ï¿½ï¿½ï¿½bsÂ¾@\ï¿½_=_u(	FOï¿½Vï¿½Xtï¿½j<ï¿½Us0ï¿½ï¿½ï¿½ï¿½È‘ï¿½À€Oï¿½ï¿½Kf]*ï¿½ï¿½Rï¿½KeĞ—ï¿½plï¿½Qï¿½.ï¿½[B\Bï¿½/ï¿½_ï¿½ï¿½Kï¿½'ï¿½Ğ‡ï¿½ï¿½_Bb	}x	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%ï¿½Kï¿½ï¿½ï¿½ï¿½ï¿½ï¿½%ï¿½3Kï¿½O.ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½kyï¿½ï¿½BÑªï¿½ï¿½Iï¿½)ï¿½ï¿½?ï¿½ï¿½M'ï¿½q=ï¿½	ÌŸË€Mzhsï¿½3bï¿½Z4ï¿½ï¿½ï¿½orï¿½ï¿½ï¿½ï¿½ï¿½Gï¿½ï¿½cï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä…†<ï¿½ï¿½W5Gï¿½a=ï¿½ï¿½
+W/DroidBox(  981): LÂ–p ï¿½ï¿½kTï¿½Lï¿½ï¿½ï¿½ï¿½y,]ï¿½ï¿½$ï¿½Fï¿½ï¿½Kzï¿½	ï¿½ï¿½iIoï¿½zl>{"lï¿½Ç£ï¿½47ï¿½ï¿½ï¿½ï¿½hï¿½ï¿½M-ï¿½M9ï¿½ï¿½ï¿½ï¿½ï¿½dhRï¿½ß’<ï¿½ï¿½ê™§Nï¿½Hï¿½ï¿½ï¿½>)ï¿½ï¿½{ï¿½:ï¿½Ñ¬Z ï¿½g-}^vyx6ï¿½&ï¿½ï¿½`$1ï¿½Eï¿½I=ï¿½ï¿½<ï¿½Mï¿½Qï¿½4	U5ï¿½ï¿½ï¿½,ï¿½:ï¿½Pİ¯ï¿½Aï¿½ï¿½ï¿½54ï¿½'ï¿½ÉŠï¿½Ô†Aï¿½ï¿½ï¿½Q$'&ç¢2ï¿½<+ï¿½*ï¿½qï¿½Mï¿½@Xï¿½ï¿½9sJï¿½ï¿½@bï¿½'ï¿½ï¿½ï¿½3ï¿½Cï¿½ï¿½ï¿½\Jï¿½*ï¿½fIt,ï¿½ï¿½,ï¿½cï¿½DaKOkï¿½zï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½}G:{ï¿½Ö¿ï¿½i[5ï¿½ ï¿½ï¿½ï¿½ï¿½'1Hï¿½ ï¿½ï¿½Aï¿½	ï¿½Aï¿½ï¿½[ï¿½%
+W/DroidBox(  981): ï¿½[ï¿½%ï¿½7ï¿½ï¿½ï¿½Ğ4-@'ï¿½Y"8+Yd=ï¿½ï¿½ï¿½ï¿½ï¿½
+W/DroidBox(  981): ï¿½0ï¿½rï¿½ï¿½#z$0Öƒd	ï¿½ï¿½A5Y9ï¿½8ï¿½$ï¿½ï¿½ï¿½ï¿½ï¿½h%ï¿½F*ï¿½7ï¿½hhKgÉï¿½247ï¿½ï¿½iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Jeï¿½leTrÀ€ï¿½ï¿½Oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½NTÆ§#ï¿½vAï¿½Ê˜)9ï¿½ï¿½H(Hvï¿½#A*ï¿½Caî¶º{Dï¿½	ï¿½$ï¿½ï¿½1ï¿½ï¿½ï¿½@ï¿½lcï¿½hBï¿½prï¿½ï¿½ï¿½ï¿½Lï¿½'Wï¿½ï¿½b|ï¿½lX;[ï¿½$Xï¿½0`Wï¿½ï¿½ï¿½Z	ï¿½#ï¿½Gl>{P.f:-ï¿½ÃXBï¿½ï¿½0ï¿½aï¿½ï¿½SWï¿½|=2ï¿½Qcß‘]ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½1ï¿½ï¿½pï¿½hï¿½ï¿½zDG Hï¿½q=Iï¿½ï¿½ï¿½$mKYÌ†cï¿½aÎ¸ï¿½%(	,Õ­ï¿½ï¿½ï¿½6ï¿½ï¿½,Â¾;!9ï¿½ï¿½Åœ9~'ï¿½!1ßˆd-ï¿½ï¿½ï¿½ï¿½ï¿½á¤ŠEeZï¿½Ğ˜ï¿½4Ñ“6ï¿½"!cRï¿½ï¿½î·Jï¿½Fï¿½Ãï¿½ï¿½ï¿½Cï¿½I*bFï¿½ï¿½nï¿½Ãµ!ï¿½ï¿½M+ï¿½ï¿½ï¿½iï¿½Ù”sï¿½ï¿½ï¿½kï¿½ï¿½ï¿½ï¿½D2ï¿½quï¿½ï¿½ï¿½ï¿½TDï¿½tï¿½ï¿½DR	ï¿½ï¿½^ï¿½19X}ï¿½L709ï¿½ï¿½&sï¿½Vq:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½x[ï¿½<7:.ï¿½ï¿½$ï¿½dï¿½Lï¿½Ë’ï¿½ï¿½Fï¿½ï¿½dï¿½ï¿½ï¿½È´,-7Vï¿½ï¿½È•ï¿½ï¿½?4ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½Xï¿½ï¿½gß¯ï¿½y"ï¿½Rï¿½ËM]Ñï¿½ï¿½ï¿½Qï¿½i>xRï¿½ï¿½ï¿½Üï¿½yï¿½h8x,ï¿½ï¿½@ï¿½ï¿½ï¿½:ï¿½ï¿½ 1Aï
+W/DroidBox(  981): ¿½ï¿½ 1Aï¿½ï¿½@ï¿½ï¿½ï¿½Tî„œï¿½ï¿½ï¿½)Aï¿½Hï¿½ï¿½vï¿½ï¿½8eä”­	ERï¿½}ï¿½ï¿½ï¿½ï¿½(#ï¿½l%dMï¿½ï¿½u=ï¿½ï¿½<ï¿½<:ï¿½ï¿½$NPï¿½	Uï¿½ï¿½8ï¿½ï¿½7[Xï¿½ï¿½Ã”Æ¹>Oï¿½dï¿½Eï¿½ï¿½8ï¿½'ï¿½ï¿½ï¿½ï¿½ï¿½zï¿½<`ï¿½aï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½À€ï¿½ï¿½ï¿½ï¿½I91c>ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½4Yï¿½ï¿½\q}ï¿½ï¿½ï¿½SOdï¿½ï¿½ï¿½l	>Zï¿½ï¿½Vq&Rï¿½ï¿½ï¿½ï¿½O&ï¿½ï¿½#;ï¿½ï¿½46Kbz4aLY&Kï¿½ï¿½ï¿½ï¿½rï¿½Ñ¹ï¿½ï¿½-ï¿½ï¿½F"+ï¿½r4ï¿½'ï¿½ï¿½rLGNDï¿½Kï¿½>ï¿½Ø©Ó±dÚ­9fï¿½0ï¿½Qï¿½5ia;ï¿½Æ:ï¿½3ï¿½ï¿½ï¿½~R^!ï¿½qï¿½ï¿½ï¿½ï¿½kï¿½Knï¿½ï¿½ï¿½ï¿½6qï¿½:ë­•ï¿½gï¿½Hï¿½ï¿½*ï¿½v7$7Wï¿½ï¿½{ï¿½8u%Rï¿½ ï¿½L5!ï¿½Wd?ï¿½ï¿½Tï¿½Eï¿½ZNï¿½!uï¿½Ndß²ï¿½_a;ï¿½ï¿½vï¿½|q;ï¿½ï¿½ï¿½ï¿½Ù®ï¿½ï¿½dï¿½Hï¿½>ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½	QI/$/ï¿½ï¿½oï¿½ï¿½ï¿½ï¿½eï¿½ï¿½=ï¿½ï¿½^hï¿½\ï¿½ ï¿½wï¿½ï¿½ï¿½ï¿½rï¿½(ï¿½}!ï¿½}ï¿½ï¿½ï¿½Oï¿½dï¿½ï¿½%ï¿½ï¿½Wï¿½/ï¿½-{Dï¿½}ï¿½M"ï¿½ï¿½&niï¿½,seï¿½jXï¿½ï¿½ï¿½oï¿½c<ï¿½á¼§Edï¿½ï¿½*ï¿½gï¿½yï¿½ãï¿½ï¿½wuï¿½ï¿½!ï¿½nï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½K8ï¿½^ï¿½ï¿½sï¿½ï¿½ï¿½Z/ï¿½ï¿½sï¿½>ï¿½ï¿½ï¿½Tï¿½zï¿½ï¿½È¾ï¿½Ï©ï¿½_d?ï¿½d#ï¿½ï
+W/DroidBox(  981): ï¿½d#ï¿½ï¿½ï¿½ï¿½gï¿½l?JÀ€ï¿½ï¿½í­¤í³œï¿½ï¿½lï¿½Aï¿½ï¿½ï¿½ ï¿½>ï¿½9$ï¿½/ï¿½ï¿½.ï¿½Ôï¿½~aï¿½ï¿½7pï¿½$o=ï¿½ï¿½
+W/DroidBox(  981): 4ï¿½ï¿½02sï¿½Ã¬ï¿½euï¿½pï¿½&N>st'?*ï¿½W#y5'?ï¿½É—ï¿½ï¿½gï¿½pï¿½ï¿½|ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½f&ï¿½ï¿½{Iï¿½.ï¿½ï¿½Iï¿½.ï¿½ï¿½IVJï¿½ï¿½$ï¿½&3ï¿½ï¿½ï¿½êŸï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½ï¿½Vï¿½Ìœ_ï¿½6ï¿½ï¿½0ï¿½Dï¿½PK<ï¿½ï¿½ï¿½ï¿½ À€À€ï¿½IÀ€À€PKÀ€À€À€*ï¿½LRï¿½"ï¿½À€À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€META-INF/MANIFEST.MFï¿½ï¿½À€À€PKÀ€À€À€*ï¿½L<ï¿½ï¿½ï¿½ï¿½ À€À€ï¿½IÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½À€À€À€classes.dexPKÀ€À€À€À€À€À€À€À€À€ï¿½!À€À€À€À€" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e6a6172", "id": "140762309" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "504b03041400080808002a06efbfbd4c000000000000000000000000140004004d4554412d494e462f4d414e49464553542e4d46efbfbdefbfbd00002defbfbd310befbfbd301046efbfbd40efbfbd437649efbfbdefbfbd511defbfbd26efbfbdefbfbdefbfbd5a0e625aefbfbd02467fefbfbd411cefbfbdefbfbdefbfbd7b372cefbfbdefbfbd56efbfbd20", "id": "140762309" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3335362f636d646c696e65", "id": "901466047" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e73797374656d75690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "901466047" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3430392f636d646c696e65", "id": "268189487" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e696e7075746d6574686f642e6c6174696e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "268189487" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3432392f636d646c696e65", "id": "486527285" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e70686f6e650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "486527285" } }
+W/DroidBox(  981): DroidBox: { "DexClassLoader": { "path": "/data/data/com.wigoal.eyeguard/cache/1529567361524.jar" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3434352f636d646c696e65", "id": "1350011091" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e73657474696e67730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1350011091" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3437362f636d646c696e65", "id": "1735420931" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e736d7370757368000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1735420931" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3439312f636d646c696e65", "id": "1364043888" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "616e64726f69642e70726f636573732e61636f726500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1364043888" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3532362f636d646c696e65", "id": "1170054163" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e63616c656e6461720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1170054163" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e6a6172", "id": "908075266" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "504b0506", "id": "908075266" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e6a6172", "id": "1572207725" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "00000000020002007f000000efbfbd2100000000", "id": "1572207725" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e6a6172", "id": "468549919" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "504b010214001400080808002a06efbfbd4c1252efbfbd22efbfbd000000efbfbd0000001400040000000000000000000000000000004d4554412d494e462f4d414e49464553542e4d46efbfbdefbfbd0000504b010214001400080808002a06efbfbd4c3cefbfbdefbfbdefbfbdefbfbd200000efbfbd4900000b00", "id": "468549919" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3534312f636d646c696e65", "id": "1843293994" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e6c61756e636865720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1843293994" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3536322f636d646c696e65", "id": "1478352286" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e6465736b636c6f636b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1478352286" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3537362f636d646c696e65", "id": "567923894" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e70726f7669646572732e63616c656e64617200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "567923894" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3634322f636d646c696e65", "id": "1150093207" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e636f6e74616374730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1150093207" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3732302f636d646c696e65", "id": "2097178015" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "616e64726f69642e70726f636573732e6d6564696100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "2097178015" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3735372f636d646c696e65", "id": "1586077133" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e656d61696c0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1586077133" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3737382f636d646c696e65", "id": "1729408125" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e65786368616e67650000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1729408125" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3832312f636d646c696e65", "id": "1479916256" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e67616c6c657279336400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "1479916256" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3834362f636d646c696e65", "id": "2106335669" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e646566636f6e7461696e657200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "2106335669" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3836312f636d646c696e65", "id": "957473029" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e6d6d7300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "957473029" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3838392f636d646c696e65", "id": "408922497" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e766f6963656469616c65720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "408922497" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3931322f636d646c696e65", "id": "36993734" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e717569636b736561726368626f780000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "36993734" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3933312f636d646c696e65", "id": "662236245" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e6d757369636678000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "662236245" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3934342f636d646c696e65", "id": "90880939" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e73766f782e7069636f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "90880939" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936332f636d646c696e65", "id": "200620900" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e616e64726f69642e636f6d6d616e64732e6d6f6e6b657900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "200620900" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936352f636d646c696e65", "id": "941200260" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "6c6f676361740044726f6964426f783a570064616c76696b766d3a570041637469766974794d616e616765723a49000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "941200260" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936372f636d646c696e65", "id": "195295962" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f7368002d63007368202e2f7364636172642f65786563757465537472616365496e2e736800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "195295962" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3936392f636d646c696e65", "id": "2008582749" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "7368002e2f7364636172642f65786563757465537472616365496e2e736800786563757465537472616365496e2e736800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "2008582749" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3937302f636d646c696e65", "id": "1308351146" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "737472616365002d70003630002d66002d747446002d6f002f7364636172642f626439636539643537303938633561633564346238336665623933666461663064353938666531352e61706b5f7374726163655f6d6f6e6b65792e747874000000000000", "id": "1308351146" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3938312f636d646c696e65", "id": "1895053932" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e7769676f616c2e65796567756172640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f7374726163655f6d6f6e6b65792e747874000000000000", "id": "1895053932" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f313033302f636d646c696e65", "id": "1763440875" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "2f73797374656d2f62696e2f6465786f7074002d2d646578003238003539003430003138393230002f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e6a6172003132383930", "id": "1763440875" } }
+I/InputReader(  220): Reconfiguring input devices.  changes=0x00000010
+D/PackageManager(  220): generateServicesMap(android.accounts.AccountAuthenticator): 2 services unchanged
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+D/PackageManager(  220): generateServicesMap(android.content.SyncAdapter): 4 services unchanged
+I/Ads     (  981): Starting ad request.
+I/Ads     (  981): SDK version: afma-sdk-a-v13000000.13000000.0
+I/Ads     (  981): This request is sent from a test device.
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+I/AccountTypeManager(  642): Loaded meta-data for 1 account types, 0 accounts in 885ms(wall) 10ms(cpu)
+W/dalvikvm(  821): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e616e64726f69642e67616c6c65727933642f7368617265645f70726566732f636f6d2e616e64726f69642e67616c6c65727933645f707265666572656e6365732e786d6c", "id": "1241736453" } }
+W/DroidBox(  821): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c696e74206e616d653d227061636b616765732d76657273696f6e222076616c75653d2237", "id": "1241736453" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f61646d6f622e786d6c", "id": "1901505587" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c6c6f6e67206e616d653d2266697273745f61645f7265715f74696d655f6d73222076616c", "id": "1901505587" } }
+I/Process (  220): Sending signal. PID: 889 SIG: 3
+E/ActivityManager(  220): ANR in com.wigoal.eyeguard (com.wigoal.eyeguard/.activity.SplashActivity)
+E/ActivityManager(  220): Reason: keyDispatchingTimedOut
+E/ActivityManager(  220): Load: 5.19 / 1.82 / 0.65
+E/ActivityManager(  220): CPU usage from 27415ms to 804ms ago:
+E/ActivityManager(  220):   28% 62/mediaserver: 9.1% user + 19% kernel / faults: 9 minor
+E/ActivityManager(  220):   20% 220/system_server: 17% user + 2.1% kernel / faults: 6303 minor
+E/ActivityManager(  220):   5.2% 846/com.android.defcontainer: 4.8% user + 0.4% kernel / faults: 506 minor
+E/ActivityManager(  220):   5.1% 720/android.process.media: 2.8% user + 2.3% kernel / faults: 2993 minor
+E/ActivityManager(  220):   2.3% 541/com.android.launcher: 1.9% user + 0.3% kernel / faults: 2575 minor
+E/ActivityManager(  220):   1.5% 59/surfaceflinger: 1.4% user + 0% kernel / faults: 363 minor
+E/ActivityManager(  220):   1% 491/android.process.acore: 0.6% user + 0.3% kernel / faults: 5947 minor
+E/ActivityManager(  220):   0.6% 11/kworker/0:1: 0% user + 0.6% kernel
+E/ActivityManager(  220):   0.5% 68/adbd: 0% user + 0.5% kernel / faults: 1465 minor
+E/ActivityManager(  220):   0.4% 26/mtdblock1: 0% user + 0.4% kernel
+E/ActivityManager(  220):   0.3% 25/mtdblock0: 0% user + 0.3% kernel
+E/ActivityManager(  220):   0.1% 40/jbd2/mtdblock1-: 0% user + 0.1% kernel
+E/ActivityManager(  220):   0.1% 60/zygote: 0% user + 0.1% kernel / faults: 205 minor
+E/ActivityManager(  220):   0.1% 356/com.android.systemui: 0.1% user + 0% kernel / faults: 12 minor
+E/ActivityManager(  220):   0.1% 429/com.android.phone: 0% user + 0% kernel / faults: 54 minor
+E/ActivityManager(  220):   0% 30/kworker/u:1: 0% user + 0% kernel
+E/ActivityManager(  220):   0% 889/com.android.voicedialer: 0% user + 0% kernel / faults: 11 minor
+E/ActivityManager(  220):   0% 409/com.android.inputmethod.latin: 0% user + 0% kernel / faults: 5 minor
+E/ActivityManager(  220):   0% 526/com.android.calendar: 0% user + 0% kernel
+E/ActivityManager(  220):   0% 642/com.android.contacts: 0% user + 0% kernel / faults: 4 minor
+E/ActivityManager(  220):   0% 821/com.android.gallery3d: 0% user + 0% kernel / faults: 35 minor
+E/ActivityManager(  220):   0% 912/com.android.quicksearchbox: 0% user + 0% kernel / faults: 6 minor
+E/ActivityManager(  220):  +0% 931/com.android.musicfx: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 944/com.svox.pico: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 963/com.android.commands.monkey: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 965/logcat: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 967/sh: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 969/sh: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 970/strace: 0% user + 0% kernel
+E/ActivityManager(  220):  +0% 981/com.wigoal.eyeguard: 0% user + 0% kernel
+E/ActivityManager(  220): 99% TOTAL: 65% user + 33% kernel + 0.1% softirq
+E/ActivityManager(  220): CPU usage from 2392ms to 2972ms later:
+E/ActivityManager(  220):   38% 970/strace: 17% user + 20% kernel
+E/ActivityManager(  220):   25% 220/system_server: 13% user + 11% kernel / faults: 1800 minor
+E/ActivityManager(  220):     10% 262/PackageMonitor: 1.6% user + 8.4% kernel
+E/ActivityManager(  220):     5% 233/er.ServerThread: 3.3% user + 1.6% kernel
+E/ActivityManager(  220):     5% 276/InputDispatcher: 3.3% user + 1.6% kernel
+E/ActivityManager(  220):     1.6% 220/system_server: 1.6% user + 0% kernel
+E/ActivityManager(  220):     1.6% 231/Binder_2: 1.6% user + 0% kernel
+E/ActivityManager(  220):     1.6% 502/Binder_6: 1.6% user + 0% kernel
+E/ActivityManager(  220):   9.6% 981/com.wigoal.eyeguard: 3.2% user + 6.4% kernel / faults: 245 minor 1 major
+E/ActivityManager(  220):     4.8% 981/wigoal.eyeguard: 0% user + 4.8% kernel
+E/ActivityManager(  220):     3.2% 1000/AsyncTask #2: 1.6% user + 1.6% kernel
+E/ActivityManager(  220):     1.6% 999/AsyncTask #1: 0% user + 1.6% kernel
+E/ActivityManager(  220):   8.4% 62/mediaserver: 0% user + 8.4% kernel
+E/ActivityManager(  220):     8.4% 62/mediaserver: 0% user + 8.4% kernel
+E/ActivityManager(  220):   1.5% 59/surfaceflinger: 1.5% user + 0% kernel / faults: 375 minor
+E/ActivityManager(  220):     1.5% 86/SurfaceFlinger: 1.5% user + 0% kernel
+E/ActivityManager(  220):   3.2% 965/logcat: 1% user + 2.1% kernel
+E/ActivityManager(  220):   3.3% 68/adbd: 0% user + 3.3% kernel / faults: 64 minor
+E/ActivityManager(  220):     3.3% 239/adbd: 0% user + 3.3% kernel
+E/ActivityManager(  220):   3.2% 1030/dexopt: 1.6% user + 1.6% kernel / faults: 270 minor
+E/ActivityManager(  220):   0.9% 889/com.android.voicedialer: 0.9% user + 0% kernel / faults: 3 minor
+E/ActivityManager(  220):     0.9% 889/oid.voicedialer: 0.9% user + 0% kernel
+E/ActivityManager(  220): 100% TOTAL: 37% user + 60% kernel + 1.7% softirq
+W/InputManager(  220): Input event injection from pid 963 timed out.
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f646174612f616e722f7472616365732e747874", "id": "652757793" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "0a0a2d2d2d2d2d207069642032323020617420323032342d30362d31312030393a32393a3535202d2d2d2d2d0a436d64206c696e653a2073797374656d5f7365727665720a0a44414c56494b20544852454144533a0a286d7574657865733a20746c6c3d", "id": "652757793" } }
+I/dalvikvm-heap(  220): Grow heap (frag case) to 12.080MB for 174776-byte allocation
+I/dalvikvm-heap(  220): Grow heap (frag case) to 12.317MB for 349536-byte allocation
+I/dalvikvm-heap(  220): Grow heap (frag case) to 12.464MB for 174776-byte allocation
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/ActivityManager(  220): Launch timeout has expired, giving up wake lock!
+W/Ads     (  981): Invoke Firebase method getInstance error.
+W/Ads     (  981): The Google Mobile Ads SDK will not integrate with Firebase. Admob/Firebase integration requires the latest Firebase SDK jar, but Firebase SDK is either missing or out of date
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f636f6d2e7769676f616c2e65796567756172645f707265666572656e6365732e786d6c", "id": "1387886315" } }
+I/dalvikvm-heap(  220): Grow heap (frag case) to 12.742MB for 393236-byte allocation
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22636f6d2e66616365626f6f6b2e6170706576656e74732e", "id": "1387886315" } }
+I/dalvikvm-heap(  220): Grow heap (frag case) to 12.741MB for 262190-byte allocation
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "32" } }
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/ActivityManager(  220): Activity idle timeout for ActivityRecord{b3f2f7f0 com.wigoal.eyeguard/.activity.SplashActivity}
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+I/Choreographer(  541): Skipped 738 frames!  The application may be doing too much work on its main thread.
+I/tag     (  981): è¿›å…¥js æœåŠ¡com.wigoal.eyeguard.application.MyApplication@b3d9c370
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e646578", "id": "1328341248" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "6465790a3033360028000000efbfbd490000104a0000efbfbd010000efbfbd4b0000000900000000000062efbfbdefbfbdefbfbd6465780a3033350033efbfbd65efbfbd76efbfbd26efbfbd4535efbfbd61efbfbdefbfbdefbfbdefbfbd6c52efbfbd0918efbfbd3cefbfbdefbfbd49000070000000785634120000000000000000544900002a010000", "id": "1328341248" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f6465762f7572616e646f6d", "id": "1080949708" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "efbfbd16efbfbd52655cefbfbdefbfbd2b712d123053efbfbd137a0c65", "id": "1080949708" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "encryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "dey
+W/DroidBox(  981): 036À€(À€À€À€ï¿½IÀ€À€JÀ€À€ï¿½À€À€ï¿½KÀ€À€À€	À€À€À€À€À€À€bï¿½ï¿½ï¿½dex
+W/DroidBox(  981): 035À€3ï¿½eï¿½vï¿½&ï¿½E5ï¿½aï¿½ï¿½ï¿½ï¿½lRï¿½	ï¿½<ï¿½ï¿½IÀ€À€pÀ€À€À€xV4À€À€À€À€À€À€À€À€TIÀ€À€*À€À€pÀ€À€À€nÀ€À€À€À€À€\À€À€À€ï¿½À€À€2À€À€À€ À€À€ï¿½À€À€À€ï¿½À€À€ À€À€À€ï¿½À€À€ï¿½2À€À€ï¿½À€À€ï¿½1À€À€ï¿½1À€À€ï¿½1À€À€ï¿½1À€À€	2À€À€2À€À€+2À€À€F2À€À€X2À€À€b2À€À€j2À€À€q2À€À€x2À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€ï¿½3À€À€4À€À€4À€À€4À€À€4À€À€4À€À€4À€À€4À€À€#4À€À€(4À€À€,4À€À€14À€À€44À€À€84À€À€=4À€À€A4À€À€E4À€À€J4À€À€O4À€À€U4À€À€[4À€À€`4À€À€f4À€À€j4À€À€ï¿½4À€À€ï¿½4À€À€ï¿½4À€À€5À€À€;5À€À€Z5À€À€y5À€À€ï¿½5À€À€ï¿½5À€À€ï¿½5À€À€ï¿½5À€À€6À€À€86À€À€Z6À€À€ï¿½6À€À€ï¿½6À€À€ï¿½6À€À€ï¿½6À€À€ 7À€À€<7À€À€P7À€À€e7À€À€ï¿½7À€À€ï¿½7À€À€ï¿½7À€À€ï¿½7À€À€8À€À€/8À€À€N8À€À€f8À€À€ï¿½8À€À€ï¿½8À€À€ï¿½8À€À€ï¿½8À€À€ï¿½8À€À€9À€À€29À€À€S9À€À€t9À€À€ï¿½9À€À€ï¿½9À€À€ï¿½9À€À€ï¿½9À€À€:À€À€6:À€À€V:À€À€v:À€À€ï¿½:À€À€
+W/DroidBox(  981): À€ï¿½:À€À€ï¿½:À€À€ï¿½:À€À€ï¿½:À€À€;À€À€6;À€À€V;À€À€v;À€À€ï¿½;À€À€ï¿½;À€À€ï¿½;À€À€ï¿½;À€À€<À€À€6<À€À€V<À€À€v<À€À€ï¿½<À€À€ï¿½<À€À€ï¿½<À€À€ï¿½<À€À€=À€À€"=À€À€9=À€À€W=À€À€o=À€À€ï¿½=À€À€ï¿½=À€À€ï¿½=À€À€ï¿½=À€À€ï¿½=À€À€ï¿½=À€À€>À€À€(>À€À€<>À€À€Q>À€À€p>À€À€ï¿½>À€À€ï¿½>À€À€ï¿½>À€À€ï¿½>À€À€ï¿½>À€À€?À€À€4?À€À€^?À€À€u?À€À€ï¿½?À€À€ï¿½?À€À€ï¿½?À€À€ï¿½?À€À€ï¿½?À€À€ï¿½?À€À€ï¿½?À€À€ï¿½?À€À€@À€À€@À€À€@À€À€@À€À€"@À€À€%@À€À€)@À€À€.@À€À€2@À€À€8@À€À€=@À€À€C@À€À€F@À€À€J@À€À€N@À€À€R@À€À€V@À€À€w@À€À€ï¿½@À€À€ï¿½@À€À€ï¿½@À€À€ï¿½@À€À€ï¿½@À€À€ï¿½@À€À€ï¿½@À€À€AÀ€À€=AÀ€À€]AÀ€À€iAÀ€À€qAÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€ï¿½AÀ€À€À€BÀ€À€BÀ€À€BÀ€À€BÀ€À€.BÀ€À€6BÀ€À€>BÀ€À€ABÀ€À€IBÀ€À€LBÀ€À€UBÀ€À€ZBÀ€À€eBÀ€À€oBÀ€À€|BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€ï¿½BÀ€À€CÀ€À€CÀ€À€$CÀ€À€.CÀ€À€9CÀ€À€PCÀ€À€iCÀ€À€yCÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€ï¿½CÀ€À€DÀ€À€!DÀ€À€.DÀ€À€>DÀ€À€LDÀ€À€YDÀ€À€qDÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿
+W/DroidBox(  981): ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€ï¿½DÀ€À€EÀ€À€	EÀ€À€EÀ€À€EÀ€À€%EÀ€À€(EÀ€À€1EÀ€À€?EÀ€À€BEÀ€À€FEÀ€À€REÀ€À€qEÀ€À€}EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€ï¿½EÀ€À€FÀ€À€FÀ€À€FÀ€À€FÀ€À€(FÀ€À€/FÀ€À€6FÀ€À€;FÀ€À€GFÀ€À€SFÀ€À€[FÀ€À€fFÀ€À€sFÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€ï¿½FÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€.À€À€À€/À€À€À€0À€À€À€1À€À€À€2À€À€À€3À€À€À€4À€À€À€5À€À€À€6À€À€À€7À€À€À€8À€À€À€9À€À€À€:À€À€À€;À€À€À€<À€À€À€=À€À€À€>À€À€À€?À€À€À€@À€À€À€AÀ€À€À€BÀ€À€À€CÀ€À€À€DÀ€À€À€EÀ€À€À€FÀ€À€À€GÀ€À€À€HÀ€À€À€IÀ€À€À€JÀ€À€À€KÀ€À€À€LÀ€À€À€MÀ€À€À€NÀ€À€À€OÀ€À€À€PÀ€À€À€QÀ€À€À€RÀ€À€À€SÀ€À€À€TÀ€À€À€UÀ€À€À€VÀ€À€À€WÀ€À€À€XÀ€À€À€YÀ€À€À€ZÀ€À€À€[À€À€À€\À€À€À€]À€À€À€^À€À€À€_À€À€À€`À€À€À€aÀ€À€À€bÀ€À€À€cÀ€À€À€dÀ€À€À€eÀ€À€À€fÀ€À€À€gÀ€À€À€hÀ€À€À€iÀ€À€À€jÀ€À€À€kÀ€À€À€lÀ€À€À€mÀ€À€À€nÀ€À€À€oÀ€À€À€pÀ€À€À€qÀ€À€À€rÀ€À€À€sÀ€À€À€tÀ€À€À€uÀ€À€À€vÀ€À€À€wÀ€À€À€xÀ€À€À€yÀ€À€À€zÀ€À€À€{À€À€À€|À€À€À€}À€À€À€~À€À€À€À€À€À€ï
+W/DroidBox(  981): À€À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€À€À€À€À€À€À€ï¿½0À€À€ À€À€À€À€À€À€ï¿½0À€À€ À€À€À€À€À€À€1À€À€!À€À€À€À€À€À€1À€À€&À€À€À€À€À€À€1À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€(À€À€À€À€À€À€1À€À€&À€À€À€À€À€À€1À€À€'À€À€À€À€À€À€ï¿½0À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€À€À€À€À€À€À€À€"À€À€À€!À€À€À€À€À€À€À€"À€À€À€#À€À€À€À€À€À€À€"À€À€À€$À€À€À€À€À€À€À€-À€À€À€LÀ€À€À€$1À€À€"À€À€À€MÀ€À€À€À€À€À€À€#À€À€À€OÀ€À€À€ï¿½0À€À€"À€À€À€PÀ€À€À€À€À€À€À€%À€À€À€PÀ€À€À€ï¿½0
+W/DroidBox(  981): À€À€À€ï¿½0À€À€&À€À€À€PÀ€À€À€1À€À€"À€À€À€TÀ€À€À€À€À€À€À€(À€À€À€TÀ€À€À€,1À€À€&À€À€À€TÀ€À€À€41À€À€"À€À€À€UÀ€À€À€À€À€À€À€"À€À€À€XÀ€À€À€À€À€À€À€#À€À€À€XÀ€À€À€ï¿½0À€À€$À€À€À€XÀ€À€À€<1À€À€(À€À€À€XÀ€À€À€ï¿½0À€À€&À€À€À€XÀ€À€À€1À€À€,À€À€À€XÀ€À€À€D1À€À€(À€À€À€XÀ€À€À€P1À€À€(À€À€À€XÀ€À€À€X1À€À€&À€À€À€XÀ€À€À€`1À€À€&À€À€À€XÀ€À€À€41À€À€&À€À€À€XÀ€À€À€h1À€À€)À€À€À€XÀ€À€À€p1À€À€&À€À€À€XÀ€À€À€ï¿½0À€À€'À€À€À€XÀ€À€À€|1À€À€+À€À€À€XÀ€À€À€ï¿½1À€À€&À€À€À€XÀ€À€À€ï¿½1À€À€&À€À€À€YÀ€À€À€41À€À€&À€À€À€]À€À€À€41À€À€&À€À€À€_À€À€À€1À€À€"À€À€À€`À€À€À€À€À€À€À€"À€À€À€aÀ€À€À€À€À€À€À€"À€À€À€bÀ€À€À€À€À€À€À€"À€À€À€cÀ€À€À€À€À€À€À€#À€À€À€cÀ€À€À€ï¿½0À€À€ï¿½À€À€À€fÀ€À€À€À€À€À€À€ï¿½À€À€À€fÀ€À€À€ï¿½0À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€`1À€À€ï¿½À€À€À€fÀ€À€À€41À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€fÀ€À€À€ï¿½1À€À€ï¿½À€À€À€gÀ€À€À€À€À€À€À€ï¿½À€À€À€gÀ€À€À€1À€À€ï¿½À€À€À€gÀ€À€À€ï¿½1À€À€ï¿½À€À€À€gÀ€À€À€ï¿½1À€À€ï
+W/DroidBox(  981): €ï¿½1À€À€ï¿½À€À€À€gÀ€À€À€`1À€À€ï¿½À€À€À€gÀ€À€À€41À€À€"À€À€À€hÀ€À€À€À€À€À€À€&À€À€À€hÀ€À€À€1À€À€&À€À€À€hÀ€À€À€ï¿½1À€À€&À€À€À€hÀ€À€À€ï¿½0À€À€"À€À€À€iÀ€À€À€À€À€À€À€&À€À€À€jÀ€À€À€1À€À€*À€À€À€lÀ€À€À€ï¿½1À€À€À€À€À€À€À€À€À€À€À€À€ï¿½À€À€À€À€XÀ€À€À€À€À€ï¿½À€À€À€À€À€À€À€À€kÀ€À€À€À€À€%À€À€À€XÀ€&À€À€À€À€À€À€À€XÀ€ï¿½À€À€À€À€À€ï¿½À€À€À€À€XÀ€
+W/DroidBox(  981): À€À€À€À€XÀ€À€À€À€À€XÀ€À€À€À€À€XÀ€À€À€À€À€XÀ€ï¿½À€À€À€ À€À€ï¿½À€À€À€ À€À€ï¿½À€À€À€ À€À€'À€À€&À€XÀ€ï¿½À€À€À€.À€XÀ€ï¿½À€À€À€.À€À€ï¿½À€À€À€.À€XÀ€ï¿½À€À€À€.À€XÀ€ï¿½À€À€À€.À€XÀ€ï¿½À€À€À€/À€À€ï¿½À€À€À€/À€À€ï¿½À€À€À€0À€PÀ€ï¿½À€À€À€0À€LÀ€ï¿½À€À€À€0À€LÀ€ï¿½À€À€À€1À€PÀ€ï¿½À€À€À€1À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€ï¿½À€À€À€2À€PÀ€À€À€2À€PÀ€À€À€3À€iÀ€ï¿½À€À€À€4À€PÀ€ï¿½À€À€À€4À€PÀ€ï¿½À€À€À€4À€PÀ€ï¿½À€À€À€;À€XÀ€ï¿½À€À€À€dÀ€dÀ€ï¿½À€À€À€À€À€ï¿½À€À€À€À€(À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€À€ï¿½À€À€À€	À€@À€ï¿½À€À€À€	À€@À€ï¿½À€À€À€	À€AÀ€ï¿½À€À€À€
+W/DroidBox(  981): À€OÀ€
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): À€À€
+W/DroidBox(  981): À€OÀ€À€À€À€À€À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€*À€ï¿½À€À€À€À€*À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€(À€ï¿½À€À€À€À€À€À€À€À€À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€LÀ€	À€À€À€À€3À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€UÀ€À€À€À€À€ï¿½À€À€À€À€TÀ€ï¿½À€À€À€À€OÀ€À€À€À€À€ï¿½À€À€À€À€À€#À€À€À€À€ï¿½À€À€À€À€À€ï¿½À€À€À€À€-À€ï¿½À€À€À€À€LÀ€	À€À€À€À€7À€ï¿½À€À€À€ À€BÀ€	À€À€À€!À€HÀ€ï¿½À€À€À€!À€HÀ€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€ï¿½À€À€À€"À€À€À€ï¿½À€À€À€"À€À€À€ï¿½À€À€À€"À€À€À€ï¿½À€À€À€#À€À€À€ï¿½À€À€À€#À€À€ï¿½À€À€À€#À€À€ï¿½À€À€À€#À€À€ï¿½À€À€À€#À€À€ï¿½À€À€À€#À€À€ï¿½À€À€À€%À€À€ï¿½À€À€À€&À€BÀ€À€À€À€&À€BÀ€	À€À€À€&À€>À€ï¿½À€À€À€&À€*À€À€À€'À€BÀ€	À€À€À€'À€À€ï¿½À€À€À€(À€BÀ€	À€À€À€(À€#À€ï¿½À€À€À€)À€BÀ€	À€À€À€)À€0À€ï¿½À€À€À€*À€BÀ€	À€À€À€*À€0À€ï¿½À€À€À€+À€BÀ€	À€À€À€+À€PÀ€ï¿½À€À€À€,À€BÀ€	À€À€À€,À€%À€ï¿½À€À€À€,À€1À€ï¿½À€À€À€-À€8À€ï¿½À€À€À€.À€BÀ€	À€À€À€.À€>À€ï¿½À€À€À€.À€*À
+W/DroidBox(  981): €À€À€.À€*À€À€À€/À€BÀ€	À€À€À€/À€>À€ï¿½À€À€À€/À€*À€À€À€0À€BÀ€	À€À€À€0À€>À€ï¿½À€À€À€0À€*À€À€À€1À€BÀ€	À€À€À€1À€>À€ï¿½À€À€À€1À€*À€À€À€2À€BÀ€	À€À€À€2À€>À€ï¿½À€À€À€2À€*À€À€À€3À€BÀ€À€À€À€3À€
+W/DroidBox(  981): À€ï¿½À€À€À€3À€À€ï¿½À€À€À€3À€À€ï¿½À€À€À€3À€6À€ï¿½À€À€À€3À€QÀ€ï¿½À€À€À€4À€BÀ€	À€À€À€4À€>À€ï¿½À€À€À€4À€*À€À€À€5À€BÀ€	À€À€À€5À€À€ï¿½À€À€À€5À€[À€ï¿½À€À€À€5À€À€ï¿½À€À€À€6À€BÀ€	À€À€À€6À€PÀ€ï¿½À€À€À€7À€BÀ€	À€À€À€7À€/À€ï¿½À€À€À€7À€FÀ€ï¿½À€À€À€7À€GÀ€ï¿½À€À€À€7À€RÀ€ï¿½À€À€À€7À€VÀ€ï¿½À€À€À€7À€À€ï¿½À€À€À€7À€FÀ€ï¿½À€À€À€7À€WÀ€ï¿½À€À€À€8À€BÀ€	À€À€À€8À€ZÀ€ï¿½À€À€À€9À€BÀ€	À€À€À€9À€#À€ï¿½À€À€À€:À€BÀ€	À€À€À€:À€#À€ï¿½À€À€À€;À€BÀ€À€À€À€;À€BÀ€	À€À€À€;À€.À€ï¿½À€À€À€;À€3À€ï¿½À€À€À€;À€OÀ€ï¿½À€À€À€<À€BÀ€	À€À€À€<À€À€ï¿½À€À€À€=À€BÀ€	À€À€À€=À€À€ï¿½À€À€À€>À€BÀ€	À€À€À€>À€*À€ï¿½À€À€À€?À€BÀ€	À€À€À€?À€.À€ï¿½À€À€À€@À€BÀ€	À€À€À€@À€*À€ï¿½À€À€À€AÀ€BÀ€	À€À€À€AÀ€<À€ï¿½À€À€À€BÀ€BÀ€	À€À€À€BÀ€À€ï¿½À€À€À€CÀ€BÀ€	À€À€À€CÀ€.À€ï¿½À€À€À€DÀ€BÀ€	À€À€À€DÀ€9À€ï¿½À€À€À€EÀ€BÀ€	À€À€À€EÀ€*À€ï¿½À€À€À€FÀ€BÀ€	À€À€À€FÀ€UÀ€À€À€GÀ€LÀ€	À€À€À€GÀ€OÀ€ï¿½À€À€À€GÀ€OÀ€ï¿½À€
+W/DroidBox(  981): À€OÀ€ï¿½À€À€À€HÀ€IÀ€	À€À€À€HÀ€BÀ€ï¿½À€À€À€HÀ€À€À€À€JÀ€JÀ€	À€À€À€JÀ€BÀ€ï¿½À€À€À€JÀ€KÀ€)À€À€LÀ€ À€$À€À€MÀ€*À€ï¿½À€À€À€OÀ€"À€$À€À€PÀ€À€À€À€PÀ€$À€$À€À€QÀ€À€	À€À€QÀ€À€À€À€QÀ€	À€À€À€TÀ€BÀ€	À€À€À€TÀ€!À€ï¿½À€À€À€UÀ€À€ï¿½À€À€À€UÀ€)À€ï¿½À€À€À€WÀ€*À€À€À€XÀ€NÀ€	À€À€À€XÀ€SÀ€ï¿½À€À€À€XÀ€5À€ï¿½À€À€À€XÀ€UÀ€ï¿½À€À€À€XÀ€À€À€À€XÀ€TÀ€À€À€XÀ€+À€À€À€XÀ€,À€À€À€XÀ€YÀ€À€À€XÀ€4À€ À€À€XÀ€2À€$À€À€YÀ€CÀ€	À€À€À€YÀ€:À€ï¿½À€À€À€YÀ€*À€À€À€ZÀ€À€ï¿½À€À€À€\À€EÀ€	À€À€À€]À€UÀ€ï¿½À€À€À€]À€XÀ€ï¿½À€À€À€]À€;À€ï¿½À€À€À€]À€MÀ€"À€À€_À€CÀ€	À€À€À€_À€DÀ€ï¿½À€À€À€`À€À€ï¿½À€À€À€`À€=À€ï¿½À€À€À€aÀ€BÀ€	À€À€À€aÀ€'À€À€À€bÀ€OÀ€ï¿½À€À€À€bÀ€&À€
+W/DroidBox(  981): À€À€cÀ€?À€À€À€eÀ€BÀ€	À€À€À€eÀ€À€À€À€&À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€GÀ€À€À€À€À€À€'À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€"GÀ€À€À€À€À€À€(À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€0GÀ€À€À€À€À€À€)À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€>GÀ€À€À€À€À€À€*À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€LGÀ€À€À€À€À€À€+À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½
+W/DroidBox(  981): €ï¿½ï¿½ï¿½ï¿½À€À€À€À€ZGÀ€À€À€À€À€À€,À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€hGÀ€À€À€À€À€À€-À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€zGÀ€À€À€À€À€À€.À€À€À€À€À€&À€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½GÀ€À€À€À€À€À€/À€À€À€À€À€&À€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½GÀ€À€À€À€À€À€0À€À€À€À€À€&À€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½GÀ€À€À€À€À€À€1À€À€À€À€À€&À€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½GÀ€À€À€À€À€À€2À€À€À€À€À€&À€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½GÀ€À€À€À€À€À€3À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½GÀ€À€À€À€À€À€4À€À€À€À€À€&À€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€HÀ€À€À€À€À€À€5À€À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€*HÀ€À€À€À€À€À€6À€À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€@HÀ€À€À€À€À€À€7À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€NHÀ€À€À€À€À€À€8À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€xHÀ€À€À€À€À€À€9À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€:À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€;À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½
+W/DroidBox(  981): ½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€<À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€=À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€>À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€?À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€@À€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€ï¿½HÀ€À€À€À€À€À€AÀ€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€	IÀ€À€À€À€À€À€BÀ€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€IÀ€À€À€À€À€À€CÀ€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€'IÀ€À€À€À€À€À€DÀ€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€6IÀ€À€À€À€À€À€EÀ€À€À€À€À€TÀ€À€À€À€À€À€À€ï¿½ï¿½ï¿½ï¿½À€À€À€À€EIÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€&À€nï¿½À€À€À€À€iÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€!À€À€À€"À€FÀ€pï¿½À€À€À€"JÀ€p ï¿½À€À€n;À€À€n ï¿½À€!À€nï¿½À€À€nï¿½À€À€À€À€q  À€À€À€À€À€À€(ï¿½À€À€À€À€À€À€À€À€IÀ€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€1À€À€;À€À€qÀ€À€À€À€À
+W/DroidBox(  981): €À€À€À€À€ï¿½À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€&À€À€À€qÀ€ï¿½À€À€À€À€À€n ï¿½À€À€
+W/DroidBox(  981): À€n ï¿½À€ À€
+W/DroidBox(  981): À€ï¿½`ï¿½À€À€ï¿½ï¿½À€q ï¿½À€À€À€nï¿½À€À€À€À€ï¿½ï¿½ q ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½À€À€À€À€À€dÀ€
+W/DroidBox(  981): ï¿½B"2À€pWÀ€À€n$À€À€
+W/DroidBox(  981): À€3@À€n'À€À€n&À€À€ï¿½ï¿½q ï¿½À€TÀ€À€[`#À€n,À€À€
+W/DroidBox(  981): À€È qï¿½À€À€À€
+W/DroidBox(  981): À€ï¿½q ï¿½À€TÀ€À€[`$À€n(À€À€
+W/DroidBox(  981): À€ï¿½À€À€ï¿½q ï¿½À€TÀ€À€[`&À€$n+À€À€
+W/DroidBox(  981): 5p À€n )À€À€
+W/DroidBox(  981): È§qï¿½À€À€
+W/DroidBox(  981): ï¿½xï¿½ï¿½q_À€À€
+W/DroidBox(  981): 8À€n *À€À€
+W/DroidBox(  981): ï¿½xq@[À€ï¿½ï¿½ï¿½ï¿½ï¿½À€À€(ï¿½q ï¿½À€TÀ€À€[`'À€q_À€À€
+W/DroidBox(  981): À€8À€5À€n0À€À€
+W/DroidBox(  981): À€ï¿½q0\À€Tq ï¿½À€TÀ€À€[`!À€n1À€À€
+W/DroidBox(  981): À€ï¿½q0\À€Tq ï¿½À€TÀ€À€[`"À€n/À€À€
+W/DroidBox(  981): À€ï¿½q@[À€Tï¿½q ï¿½À€TÀ€À€[`%À€q ï¿½À€2À€À€[`(À€n-À€À€
+W/DroidBox(  981): À€ï¿½q ï¿½À€2À€À€[`)À€`À€À€À€4 À€n .À€À€
+W/DroidBox(  981): À€ï¿½À€q ï¿½À€À€À€[`*À€n%À€À€
+W/DroidBox(  981): À€ï¿½À€q ï¿½À€À€À€[`+À€nYÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€aÀ€À€À€"À€2À€pWÀ€À€À€83À€RqÀ€-8,À€n0À€À€
+W/DroidBox(  981): RrÀ€ï¿
+W/DroidBox(  981): €
+W/DroidBox(  981): RrÀ€ï¿½!ï¿½q ï¿½À€2À€[!À€n1À€À€
+W/DroidBox(  981): RrÀ€ï¿½!ï¿½q ï¿½À€2À€["À€n/À€À€
+W/DroidBox(  981): RrÀ€ï¿½!ï¿½q ï¿½À€2À€[%À€n$À€À€
+W/DroidBox(  981): 3!À€n'À€À€n&À€À€ï¿½Bq ï¿½À€2À€[#À€n,À€À€
+W/DroidBox(  981): ï¿½Bï¿½!ï¿½q ï¿½À€2À€[$À€nYÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€"À€ï¿½À€p À€!À€n0À€À€nÀ€À€À€À€ï¿½À€n À€À€
+W/DroidBox(  981): À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€8À€À€À€9À€À€À€`À€À€À€5	À€À€ï¿½ï¿½q ï¿½À€À€À€(ï¿½À€ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½` #À€8À€À€#À€ï¿½Bn2À€À€À€
+W/DroidBox(  981): ï¿½Aqï¿½À€À€
+W/DroidBox(  981): ï¿½q@ï¿½À€2Tn5À€À€À€À€(ï¿½q ï¿½À€2À€À€(ï¿½À€À€À€À€À€À€À€À€À€?À€À€À€"À€4À€p`À€À€À€qHÀ€À€[-À€8/À€RQÀ€-8(À€n4À€À€
+W/DroidBox(  981): ï¿½RRÀ€ï¿½!qï¿½À€À€
+W/DroidBox(  981): ï¿½q ï¿½À€2À€[.À€n7À€À€
+W/DroidBox(  981): ï¿½RRÀ€ï¿½!qï¿½À€À€
+W/DroidBox(  981): ï¿½q ï¿½À€2À€[/À€nbÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8	À€À€À€q  À€À€À€À€ (ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€p:À€À€À€À€[ À€À€ï¿½ï¿½Z À€À€À€[ À€À€À€[ À€À€À€[ À€À€À€À€À€À€À€À€À€À€À€<À€À€À€"À€aÀ
+W/DroidBox(  981): €À€À€"À€aÀ€pï¿½À€À€À€qï¿½À€À€TBÀ€n0ï¿½À€Aqï¿½À€À€TBÀ€n0ï¿½À€1qï¿½À€À€TBÀ€n0ï¿½À€!qï¿½À€À€TBÀ€n0ï¿½À€qï¿½À€À€SBÀ€q ï¿½À€2À€n0ï¿½À€À€À€À€À€À€À€À€À€À€À€
+W/DroidBox(  981): À€À€À€À€ï¿½ï¿½p:À€À€Z À€Z À€À€À€À€À€À€À€À€À€À€À€"À€À€À€"À€aÀ€pï¿½À€À€À€qï¿½À€À€SBÀ€q ï¿½À€2À€n0ï¿½À€qï¿½À€À€SBÀ€q ï¿½À€2À€n0ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€p:À€À€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€"À€aÀ€pï¿½À€À€À€qï¿½À€À€T2À€n0ï¿½À€qï¿½À€À€T2À€n0ï¿½À€!qï¿½À€À€T2À€n0ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€p:À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€"À€aÀ€pï¿½À€À€À€qï¿½À€À€T2À€n0ï¿½À€qï¿½À€À€T2 À€n0ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€p:À€À€À€À€À€À€À€À€À€À€À€À€À€wÀ€À€À€"À€aÀ€pï¿½À€À€À€qï¿½À€À€T2!À€n0ï¿½À€qï¿½À€À€T2"À€n0ï¿½À€!qï¿½À€À€T2#À€n0ï¿½À€1qï¿½À€À€T2$À€n0ï¿½À€Aqï¿½À€À€T2%À€n0ï¿½À€Qqï¿½À€À€T2&À€n0ï¿½À€aqï¿½À€À€T2'À€n0ï¿½À€qqï¿½À€À€T2(À€n0ï¿½À€À€qï¿½À€À€T2)À€n0ï¿½À€	À
+W/DroidBox(  981): ¿½À€	À€qï¿½À€À€T2*À€n0ï¿½À€
+W/DroidBox(  981): À€qï¿½À€À€T2+À€n0ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€nï¿½À€À€À€À€iÀ€,À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½`ï¿½@RrÀ€ï¿½"ï¿½ q ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€q@[À€2@À€À€À€À€À€À€À€À€À€À€À€&À€À€À€
+W/DroidBox(  981): À€n6À€À€À€8À€À€n3À€À€À€ À€8À€5!À€ À€8À€À€À€À€À€À€nÀ€À€À€À€ï¿½(ï¿½À€(ï¿½À€À€À€À€À€À€À€À€À€,À€À€À€!`ï¿½À€À€#iÀ€À€!b5 À€HÀ€ï¿½"ï¿½À€ï¿½À€b,À€ï¿½IPï¿½À€ï¿½b,À€ï¿½IPï¿½À€À€(ï¿½"À€XÀ€p ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€8À€R À€-À€À€8À€À€À€À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€p:À€À€À€À€À€À€À€À€À€À€À€À€À€$À€À€À€"À€aÀ€pï¿½À€À€À€qï¿½À€À€T2-À€n0ï¿½À€qï¿½À€À€T2.À€n0ï¿½À€!qï¿½À€À€T2/À€n0ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€/À€À€À€À€ï¿½À€n À€À€À€À€	À€nÀ€À€À€À€rï¿½À€À€À€rï¿½À€À€
+W/DroidBox(  981): À€8À€À€rï¿½À€À€À€À€À€nÀ€À€À€À€RÀ€nÀ€À€
+W/DroidBox(  981): 32ï¿½ï¿½RÀ€À€À€ï¿½À€À€À€ï¿½ï¿½(ï¿½À€À€À€À€À€À€À€À€À€À
+W/DroidBox(  981): €À€À€À€À€À€À€oÀ€À€À€ï¿½ï¿½:)9À€q]À€À€9À€#ï¿½lÀ€q ï¿½À€2À€MÀ€q ï¿½À€2À€MÀ€À€MÀ€	À€nÀ€À€À€À€8À€AÀ€nÀ€À€À€
+W/DroidBox(  981): À€ï¿½À€`À€À€529À€qfÀ€À€$8À€nï¿½À€À€nï¿½À€À€nï¿½À€À€
+W/DroidBox(  981):  À€7cÀ€nï¿½À€À€
+W/DroidBox(  981): ï¿½ï¿½n ï¿½À€2À€#ï¿½lÀ€q ï¿½À€À€À€MÀ€q ï¿½À€TÀ€À€MÀ€M	0(ï¿½À€ï¿½ï¿½(ï¿½qdÀ€À€$(ï¿½À€À€À€À€À€À€À€À€À€À€2À€À€À€À€ï¿½À€n À€À€À€À€	À€ï¿½ï¿½ï¿½n À€À€À€rï¿½À€À€À€rï¿½À€À€
+W/DroidBox(  981): À€8À€À€rï¿½À€À€À€À€À€RÀ€nÀ€À€
+W/DroidBox(  981): 32ï¿½ï¿½RÀ€À€ï¿½À€À€À€ï¿½ï¿½(ï¿½À€À€ï¿½ï¿½(ï¿½À€À€À€À€)À€À€V.À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€`À€À€42À€nÀ€À€ï¿½À€q À€2À€
+W/DroidBox(  981): 3À€À€(ï¿½`À€342À€nÀ€À€ï¿½À€q À€2À€
+W/DroidBox(  981): 2ï¿½ï¿½(ï¿½"À€À€ï¿½À€p À€À€'À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€"À€.À€pKÀ€À€À€8À€q0lÀ€q kÀ€À€q pÀ€À€nMÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€qoÀ€À€À€9À€À€À€RÀ€ï¿½ZRÀ€TÀ€8	À€TÀ€À€[PÀ€(ï¿½À€(ï¿½À€À€À€[PÀ€(ï¿½À€À€À€À€À€À€NÀ€
+W/DroidBox(  981): À€NÀ€À€À€À€À€À€À€À€À€À€À€qnÀ€À€À€8À€
+W/DroidBox(  981): À€8	À€q^À€À€À€À€[0À€À€q JÀ€À€À€(ï¿½À€(ï¿½À€À€À€À€À€À€À€À€NÀ€À€À€À€À€À€À€À€À€À€À€À€nï¿½À€À€
+W/DroidBox(  981): 8	À€nï¿½À€À€
+W/DroidBox(  981): 8À€À€(ï¿½À€À€À€À€À€	À€À€VÀ€À€À€À€À€À€À€À€ï¿½À€À€À€`À€À€À€4 À€nÀ€À€"À€GÀ€p ï¿½À€ À€qmÀ€À€À€
+W/DroidBox(  981): 9ï¿½À€À€n
+W/DroidBox(  981): À€À€"À€GÀ€qï¿½À€À€nï¿½À€À€
+W/DroidBox(  981): ï¿½"YÀ€p ï¿½À€4À€À€n ï¿½À€4À€n ï¿½À€#À€À€n ï¿½À€CÀ€nï¿½À€À€p ï¿½À€0À€qmÀ€À€À€
+W/DroidBox(  981): 9eÀ€"À€GÀ€qï¿½À€À€nï¿½À€À€
+W/DroidBox(  981): ï¿½"YÀ€p ï¿½À€4À€À€n ï¿½À€4À€n ï¿½À€#À€À€n ï¿½À€CÀ€nï¿½À€À€p ï¿½À€0À€qmÀ€À€À€
+W/DroidBox(  981): 97À€"À€GÀ€qï¿½À€À€nï¿½À€À€
+W/DroidBox(  981): ï¿½"YÀ€p ï¿½À€4À€À€n ï¿½À€4À€n ï¿½À€#À€À€n ï¿½À€2À€nï¿½À€À€p ï¿½À€ À€qmÀ€À€À€
+W/DroidBox(  981): 9	À€)À€pï¿½À€)À€lï¿½qqÀ€À€À€À€)À€fï¿½À€)À€bï¿½À€)À€^ï¿½À€À€À€À€À€ï¿½À€À€ï¿½À€À€À€À€À€[ï¿½^ï¿½Iï¿½À€À€À€À€À€À€À€À€À€À€À€À€n	À€À€n
+W/DroidBox(  981): À€À€n0À€!À€À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€n
+W/DroidBox(  981): À€À€n	À€À€À€n À€À€À€9À€À€À€![1À€[0À€À€À€(
+W/DroidBox(  981): À€À€À€(ï¿½À€À€À€À€À€À€À€À€NÀ€À€À€À€À€À€À€À€4À€À€À€À€À€@#hÀ€À€ï¿½À€qï¿½À€À€À€"HÀ€p ï¿½À€QÀ€n ï¿½À€1À€
+W/DroidBox(  981): À€ï¿½2 À€n@ï¿½À€4n ï¿½À€1À€
+W/DroidBox(  981): À€(ï¿½8À€nï¿½À€À€nï¿½À€À€À€À€À€!8À€nï¿½À€À€'À€À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€*À€2À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€3!ï¿½À€"À€ï¿½À€p À€vÀ€n0À€À€À€ï¿½n0À€
+W/DroidBox(  981): À€n0À€
+W/DroidBox(  981): À€+À€3À€À€À€@n0À€ï¿½
+W/DroidBox(  981): 	n0À€ï¿½
+W/DroidBox(  981): ï¿½j:À€À€À€/
+W/DroidBox(  981): =À€ï¿½ï¿½Î¨
+W/DroidBox(  981): Y@Í¨q ï¿½À€ï¿½À€ï¿½ï¿½#3jÀ€KÀ€KK(ï¿½ (ï¿½0(ï¿½À€À€À€À€À€À€À€,À€À€À€.À€À€À€.À€À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€qÀ€ï¿½À€À€À€À€nï¿½À€À€À€
+W/DroidBox(  981): À€ï¿½À€q ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€qÀ€ï¿½À€À€À€À€ï¿½ï¿½ q ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€iÀ€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€6À€À€À€À€b0À€90À€nÀ€À€ï¿½À€q À€!À€8À€qÀ€|À€À€À€
+W/DroidBox(  981): 8À€ï¿½À€q{À€À€9À€
+W/DroidBox(  981): À€9À€À€(ï¿½(ï¿½q{À€À€(ï¿½bÀ€1À€n ï¿½À€À€À€iÀ€0À€bÀ€0À€(ï¿½À€À€À€	À€À€S [#À€À€À€À€À€À€À€À€À€À€CÀ€À€À€	 À€À€8
+W/DroidBox(  981): 2À€nï¿½À€
+W/DroidBox(  981): À€
+W/DroidBox(  981): =,À€ï¿½À€qï¿½À€À€nï¿½À€
+W/DroidBox(  981): À€nï¿½À€
+W/DroidBox(  981): À€
+W/DroidBox(  981): n@ï¿½À€!Cb1À€À€#DlÀ€"\À€nï¿½À€À€p0ï¿½À€vMq0ï¿½À€2À€À€nï¿½À€
+W/DroidBox(  981): À€
+W/DroidBox(  981): 4ï¿½ï¿½ï¿½n0ï¿½À€ï¿½	À€(ï¿½À€À€À€À€À€)À€À€^7À€À€À€À€À€À€À€À€À€À€"À€À€À€bÀ€À€!n ï¿½À€À€
+W/DroidBox(  981): À€8À€À€bÀ€À€ï¿½À€n ï¿½À€À€
+W/DroidBox(  981): À€8À€À€bÀ€À€ï¿½À€n ï¿½À€À€
+W/DroidBox(  981): À€8À€À€À€À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€FÀ€À€À€À€"GÀ€À€p ï¿½À€!À€nï¿½À€À€
+W/DroidBox(  981): 8À€bÀ€ï¿½À€n ï¿½À€!À€
+W/DroidBox(  981): 9*À€bÀ€À€n ï¿½À€!À€
+W/DroidBox(  981): 9 À€bÀ€n ï¿½À€!À€
+W/DroidBox(  981): 9À€bÀ€ï¿½À€n ï¿½À€!À€
+W/DroidBox(  981): 9À€bÀ€n ï¿½À€!À€
+W/DroidBox(  981): 8À€ ï¿½À€À€(ï¿½À€À€À€
+W/DroidBox(  981): À€À€NDÀ€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€"À€À€À€nÀ€À€À€nÀ€À€À€À€R	À€ï¿½+À€À€À€ï¿½À€À€0(ï¿½(ï¿½À€À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€bÀ€
+W/DroidBox(  981): À€À€À€À€
+W/DroidBox(  981): À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€^À€À€À€"/À€pNÀ€À€n
+W/DroidBox(  981): À€À€À€ï¿½À€n À€À€À€À€	À€nÀ€À€À€À€rï¿½À€À€À€rï¿½À€À€
+W/DroidBox(  981): À€8À€"À€rï¿½À€À€À€À€À€TÀ€n ï¿½À€SÀ€
+W/DroidBox(  981): 8ï¿½ï¿½RÀ€dÀ€2CÀ€RÀ€ï¿½À€3CÀ€RÀ€À€ï¿½Z$À€"À€eÀ€pï¿½À€À€À€@À€n ï¿½À€0À€
+W/DroidBox(  981): À€ï¿½À€À€ï¿½8À€À€À€ï¿½@Z À€nPÀ€À€À€À€À€ï¿½ï¿½ï¿½@(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€:À€À€À€"_À€ p ï¿½À€À€" À€p!À€À€À€(n À€À€À€À€%À€r8À€À€À€À€n #À€ À€À€R#À€ï¿½4q ï¿½À€TÀ€n0ï¿½À€R"À€ï¿½"q ï¿½À€2À€n0ï¿½À€À€n "À€ À€(ï¿½À€À€(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€R2[7[7À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€,À€À€À€À€À€À€n À€À€À€À€
+W/DroidBox(  981): À€n À€À€À€nÀ€À€
+W/DroidBox(  981): 9À€À€ï¿½BnÀ€À€À€
+W/DroidBox(  981): À€8À€À€À€À€ï¿½ 9À€À€ï¿½ À€ (ï¿½À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€2À€À€À€À€n	À€À€n
+W/DroidBox(  981): À€À€
+W/DroidBox(  981): 
+W/DroidBox(  981): À€À€@À€n0À€!TÀ€!"=À€ï¿½À€qï¿½À€À€TÀ€FnÀ€À€n ï¿½À€À€q^À€À€À€À€(ï¿½(ï¿½(ï¿½À€À€À€)À€À€^0.[,À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€"0À€pQÀ€À€À€À€!ï¿½ï¿½À€À€ï¿½ :À€À€ï¿½ï¿½F
+W/DroidBox(  981): nï¿½À€À€82À€ï¿½À€n ï¿½À€ï¿½À€
+W/DroidBox(  981): 9
+W/DroidBox(  981): À€ï¿½À€n ï¿½À€ï¿½À€
+W/DroidBox(  981): 8À€q ï¿½À€TÀ€[aÀ€qï¿½À€À€[aÀ€qï¿½À€À€À€À€[`À€nSÀ€À€À€À€ï¿½À€n ï¿½À€ï¿½À€
+W/DroidBox(  981): 8À€ï¿½ï¿½(ï¿½ï¿½À€n ï¿½À€ï¿½À€
+W/DroidBox(  981): 8ï¿½ï¿½(ï¿½À€À€À€À€À€À€À€À€À€À€À€À€pï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€"À€1À€pTÀ€À€À€qÀ€À€À€À€q ï¿½À€2À€[À€qÀ€À€À€À€q ï¿½À€2À€[ À€nVÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€XÀ€À€À€À€XÀ€À€À€À€À€hÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€ À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€#À€À€À€À€À€À€À€À€À€À€À€gÀ€À€À€À€À€À€TÀ€TÀ€À€À€À€XÀ€À€À€À€À€À€À€À€À€À€À€À€gÀ€gÀ€À€À€À€À€À€"À€ À€À€À€À€#À€ À€À€À€À€TÀ€À€À€À€À€À€dÀ€À€À€À€À€À€dÀ€XÀ€lÀ€À€À€À€À€À€hÀ€À€À€À€À€h
+W/DroidBox(  981): À€À€À€À€hÀ€gÀ€À€À€À€mÀ€À€À€À€À€À€À€TÀ€À€À€À€À€hÀ€À€À€À€À€.À€À€À€À€À€.À€gÀ€À€À€À€À€À€ À€À€À€À€À€À€GÀ€À€À€À€À€À€KÀ€À€À€À€À€À€hÀ€À€À€À€À€À€À€À€iÀ€À€À€À€À€À€#À€À€gÀ€À€À€%032XÀ€.apkÀ€
+W/DroidBox(  981): /data/app/À€/data/app_private/À€/system/app/À€/system/app/Superuser.apkÀ€0123456789abcdefÀ€<clinit>À€<init>À€BOARDÀ€BRANDÀ€ï¿½CM-UheoFEvMBCuYBCj10eXBlLmdvb2dsZWFwaXMuY29tL2dvb2dsZS5jcnlwdG8udGluay5FY2llc0FlYWRIa2RmUHVibGljS2V5EqIBEloKBAgCEAMSUBJOCjh0eXBlLmdvb2dsZWFwaXMuY29tL2dvb2dsZS5jcnlwdG8udGluay5BZXNDdHJIbWFjQWVhZEtleRISCgYKAggQEBASCAoECAMQEBAgGAEaIQCVrzEhy2b2Etsr3VIDc1PvJ0XumDfE083VNjOR_1ixACIhAMqYyx-7IsQEbSgQiK0Q4JDmLh1gZP2mfaIL5Jzz9HxRGAMQARjPlIXqBSABÀ€DÀ€DEVICEÀ€EÀ€EmulatorÀ€FÀ€FIÀ€HARDWAREÀ€IÀ€IFÀ€IIÀ€ILÀ€ILIÀ€ILLÀ€JÀ€JDÀ€JDILÀ€JDLÀ€JJÀ€JJJÀ€JLÀ€JLZÀ€LÀ€LIÀ€LIIÀ€LJÀ€LLÀ€LLIÀ€LLLÀ€LLLLÀ€LLLZÀ€LLZÀ€LLZZÀ€LZÀ€Landroid/app/Activity;À€%Landroid/app/ActivityManager$AppTask;À€,Landroid/app/ActivityManager$RecentTaskInfo;À€3Landroid/app/ActivityManager$RunningAppProces
+W/DroidBox(  981): gAppProcessInfo;À€-Landroid/app/ActivityManager$RunningTaskInfo;À€Landroid/app/ActivityManager;À€Landroid/app/KeyguardManager;À€#Landroid/content/BroadcastReceiver;À€!Landroid/content/ContentResolver;À€Landroid/content/Context;À€ Landroid/content/ContextWrapper;À€Landroid/content/Intent;À€Landroid/content/IntentFilter;À€ Landroid/content/pm/PackageInfo;À€9Landroid/content/pm/PackageManager$NameNotFoundException;À€#Landroid/content/pm/PackageManager;À€Landroid/content/pm/Signature;À€#Landroid/content/res/Configuration;À€Landroid/content/res/Resources;À€Landroid/os/Build$VERSION;À€Landroid/os/Build;À€Landroid/os/Bundle;À€Landroid/os/PowerManager;À€Landroid/os/SystemClock;À€"Landroid/provider/Settings$Global;À€"Landroid/provider/Settings$Secure;À€4Landroid/provider/Settings$SettingNotFoundException;À€Landroid/util/Base64;À€Landroid/util/DisplayMetrics;À€Landroid/view/Display;À€Landroid/view/MotionEvent;À€Landroid/view/View;À€Landroid/view/ViewParent;À€Landroid/view/WindowManager;À€Lcom/googl
+W/DroidBox(  981): Lcom/google/android/ads/z__/a;À€Lcom/google/android/ads/z__/aa;À€Lcom/google/android/ads/z__/ab;À€Lcom/google/android/ads/z__/ac;À€Lcom/google/android/ads/z__/ad;À€Lcom/google/android/ads/z__/ae;À€Lcom/google/android/ads/z__/af;À€Lcom/google/android/ads/z__/b;À€Lcom/google/android/ads/z__/c;À€Lcom/google/android/ads/z__/d;À€Lcom/google/android/ads/z__/e;À€Lcom/google/android/ads/z__/f;À€Lcom/google/android/ads/z__/g;À€Lcom/google/android/ads/z__/h;À€Lcom/google/android/ads/z__/i;À€Lcom/google/android/ads/z__/j;À€Lcom/google/android/ads/z__/k;À€Lcom/google/android/ads/z__/l;À€Lcom/google/android/ads/z__/m;À€Lcom/google/android/ads/z__/n;À€Lcom/google/android/ads/z__/o;À€Lcom/google/android/ads/z__/p;À€Lcom/google/android/ads/z__/q;À€Lcom/google/android/ads/z__/r;À€Lcom/google/android/ads/z__/s;À€Lcom/google/android/ads/z__/t;À€Lcom/google/android/ads/z__/u;À€Lcom/google/android/ads/z__/v;À€Lcom/google/android/ads/z__/w;À€Lcom/google/android/ads/z__/x;À€Lcom/google/android/ads/z__
+W/DroidBox(  981): id/ads/z__/y;À€Lcom/google/android/ads/z__/z;À€Ljava/io/ByteArrayOutputStream;À€Ljava/io/File;À€Ljava/io/FileInputStream;À€Ljava/io/IOException;À€Ljava/io/ObjectOutputStream;À€Ljava/io/OutputStream;À€Ljava/lang/Boolean;À€Ljava/lang/Class;À€Ljava/lang/Exception;À€Ljava/lang/Integer;À€Ljava/lang/Long;À€Ljava/lang/Math;À€Ljava/lang/NoSuchMethodError;À€ Ljava/lang/NullPointerException;À€Ljava/lang/Object;À€Ljava/lang/Runtime;À€Ljava/lang/SecurityException;À€Ljava/lang/StackTraceElement;À€Ljava/lang/String;À€Ljava/lang/StringBuilder;À€Ljava/lang/System;À€)Ljava/lang/UnsupportedOperationException;À€Ljava/math/BigInteger;À€Ljava/security/MessageDigest;À€(Ljava/security/NoSuchAlgorithmException;À€Ljava/util/ArrayList;À€Ljava/util/Calendar;À€Ljava/util/HashMap;À€Ljava/util/Iterator;À€Ljava/util/List;À€Ljava/util/Locale;À€Ljava/util/Random;À€MD5À€MODELÀ€RELEASEÀ€SDK_INTÀ€SHA-1À€SHA-256À€USÀ€VÀ€VIÀ€VILÀ€VLÀ€VLIIÀ€VLLÀ€VLLZÀ€ZÀ€ZLÀ€[BÀ€[CÀ€[IÀ€[Landroid/content/pm/Signat
+W/DroidBox(  981): /pm/Signature;À€[Ljava/lang/Object;À€[Ljava/lang/StackTraceElement;À€aÀ€activityÀ€adb_enabledÀ€addÀ€%android.hardware.usb.action.USB_STATEÀ€%android.intent.action.BATTERY_CHANGEDÀ€"android.view.View$PerformClick.runÀ€android.view.View.performClickÀ€
+W/DroidBox(  981): android_idÀ€appendÀ€availableProcessorsÀ€bÀ€cÀ€canReadÀ€closeÀ€com.google.android.ads.À€com.google.android.gms.À€	connectedÀ€currentTimeMillisÀ€dÀ€densityÀ€digestÀ€eÀ€elapsedRealtimeÀ€emulatorÀ€encodeToStringÀ€equalsÀ€existsÀ€fÀ€formatÀ€gÀ€genericÀ€getÀ€	getActionÀ€getAlphaÀ€getAppTasksÀ€getBaseContextÀ€
+W/DroidBox(  981): getBooleanÀ€getBytesÀ€getClassÀ€getConfigurationÀ€getContentResolverÀ€
+W/DroidBox(  981): getContextÀ€getDefaultDisplayÀ€getDeviceIdÀ€getDownTimeÀ€getEventTimeÀ€	getExtrasÀ€getFlagsÀ€	getHeightÀ€getHistoricalPressureÀ€getHistoricalTouchMajorÀ€getHistorySizeÀ€getInstallerPackageNameÀ€getInstanceÀ€getIntÀ€getIntExtraÀ€	getIntentÀ€
+W/DroidBox(  981): getMetricsÀ€getPackageInfoÀ€getPackageManagerÀ€getPackageNameÀ€getPackageResourcePathÀ€	getParentÀ€ge
+W/DroidBox(  981): arentÀ€getPressureÀ€getRealMetricsÀ€getResourcesÀ€getRootViewÀ€getRunningAppProcessesÀ€getRunningTasksÀ€
+W/DroidBox(  981): getRuntimeÀ€getSimpleNameÀ€	getSourceÀ€	getStringÀ€getSystemServiceÀ€	getTaskIdÀ€getTaskInfoÀ€getToolTypeÀ€getTouchMajorÀ€getWidthÀ€getXÀ€getYÀ€goldfishÀ€
+W/DroidBox(  981): google_sdkÀ€hÀ€hasNextÀ€heightPixelsÀ€iÀ€idÀ€
+W/DroidBox(  981): importanceÀ€inKeyguardRestrictedInputModeÀ€
+W/DroidBox(  981): isScreenOnÀ€iteratorÀ€jÀ€kÀ€keyguardÀ€lengthÀ€levelÀ€	longValueÀ€minÀ€nextÀ€nextIntÀ€numActivitiesÀ€orientationÀ€persistentIdÀ€powerÀ€processNameÀ€putÀ€ranchuÀ€readÀ€registerReceiverÀ€roundÀ€scaleÀ€sdkÀ€
+W/DroidBox(  981): signaturesÀ€
+W/DroidBox(  981): startsWithÀ€statusÀ€	substringÀ€temperatureÀ€toByteArrayÀ€toCharArrayÀ€toStringÀ€toUpperCaseÀ€unknownÀ€updateÀ€uptimeMillisÀ€valueOfÀ€versionCodeÀ€versionNameÀ€widthPixelsÀ€windowÀ€writeObjectÀ€À€9ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½.;ï¿½À€ï¿½.À€À€À€=ï¿½ï¿½ï¿½/	ï¿½/À€À€À€?ï¿½ï¿½ï¿½/	ï¿½/À€À€À€Aï¿½ï¿½ï¿½0	ï¿½0À€À€À€Cï¿½ï¿½ï¿½4	ï¿½4À€À€À€Eï¿½ï¿½ï¿½5	ï¿½6À€À€À€Gï¿½ï¿½ï¿½6
+W/DroidBox(  981): ï¿½6	ï¿½7À€À€
+W/DroidBox(  981): 	ï¿½7À€À€À€J	ï¿½8À€Kï¿½ï¿½ï¿½9Lï¿½9À€Nï¿½ï¿½ï¿½:Oï¿½;À€Qï¿½ï¿½ï¿½;Rï¿½;À€Tï¿½ï¿½ï¿½<Uï¿½<À€!Wï¿½ï¿½ï¿½=Xï¿½=À€À€,Zï¿½ï¿½ï¿½?	ï¿½?	ï¿½@	ï¿½@	ï¿½A	ï¿½AÀ€-`ï¿½ï¿½ï¿½Baï¿½BÀ€À€À€cï¿½ï¿½ï¿½C
+W/DroidBox(  981): ï¿½C	ï¿½D
+W/DroidBox(  981): ï¿½FÀ€À€À€gï¿½ï¿½ï¿½G	ï¿½GÀ€À€	À€iï¿½ï¿½ï¿½H	ï¿½H
+W/DroidBox(  981): ï¿½H
+W/DroidBox(  981): ï¿½I
+W/DroidBox(  981): ï¿½J
+W/DroidBox(  981): ï¿½J
+W/DroidBox(  981): ï¿½M
+W/DroidBox(  981): ï¿½N
+W/DroidBox(  981): ï¿½NÀ€À€À€rï¿½ï¿½ï¿½P	ï¿½PÀ€À€À€tï¿½ï¿½ï¿½Q	ï¿½RÀ€À€À€vï¿½ï¿½ï¿½R	ï¿½RÀ€À€0
+W/DroidBox(  981): xï¿½ï¿½ï¿½Rï¿½ï¿½ï¿½S	ï¿½S	ï¿½T
+W/DroidBox(  981): ï¿½UÀ€À€À€}ï¿½ï¿½ï¿½V	ï¿½VÀ€À€À€ï¿½ï¿½ï¿½W	ï¿½WÀ€À€À€ï¿½ï¿½ï¿½ï¿½X	ï¿½XÀ€À€À€ï¿½ï¿½ï¿½ï¿½X	ï¿½YÀ€À€À€ï¿½ï¿½ï¿½ï¿½Z	ï¿½ZÀ€À€À€ï¿½ï¿½ï¿½ï¿½[	ï¿½[À€À€À€ï¿½ï¿½ï¿½ï¿½\	ï¿½\À€À€À€ï¿½ï¿½ï¿½ï¿½]	ï¿½]À€À€À€ï¿½ï¿½ï¿½ï¿½^	ï¿½_À€À€À€ï¿½ï¿½ï¿½ï¿½`	ï¿½`À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€*À€À€pÀ€À€À€À€À€À€nÀ€À€À€À€À€À€À€À€\À€À€À€ï¿½À€À€À€À€À€2À€À€À€ À€À€À€À€À€ï¿½À€À€À€ï¿½À€À€À€À€À€ À€À€À€ï¿½À€À€ À€À€QÀ€À€À€ï¿½À€À€À€À€&À€À€À€ï¿½0À€À€ À€À€*À€À€ï¿½1À€À€À€ À€À€ À€À€À€GÀ
+W/DroidBox(  981):  À€À€À€GÀ€À€À€À€À€À€À€À€TIÀ€À€*ï¿½L<ï¿½ï¿½ï¿½À€À€À€À€À€À€À€À€À€/system/framework/core.odexÀ€Aï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½kï¿½U"À€À€À€/system/framework/core-junit.odexÀ€ï¿½ï¿½ï¿½"ï¿½Gï¿½ï¿½]ï¿½ï¿½caï¿½ï¿½~j$À€À€À€/system/framework/bouncycastle.odexÀ€/"4;:ï¿½{ï¿½ï¿½-ï¿½ï¿½A	ï¿½À€À€À€/system/framework/ext.odexÀ€4Wï¿½ï¿½
+W/DroidBox(  981): ï¿½HDï¿½Üšï¿½:ï¿½?ï¿½!À€À€À€/system/framework/framework.odexÀ€Eï¿½iOï¿½ï¿½ï¿½ï¿½jEï¿½ï¿½ï¿½ï¿½}ï¿½NH&À€À€À€/system/framework/android.policy.odexÀ€ï¿½	ï¿½blNï¿½!ï¿½<cï¿½uï¿½ï¿½ï¿½8ï¿½ï¿½ À€À€À€/system/framework/services.odexÀ€ï¿½ï¿½ï¿½lï¿½${ï¿½ï¿½^ï¿½3Q?ï¿½1"À€À€À€/system/framework/apache-xml.odexÀ€(ï¿½ï¿½M!Êš\ï¿½ï¿½ï¿½-ï¿½Btï¿½ï¿½ï¿½ï¿½À€À€PKLCÀ€À€À€À€@À€À€À€ï¿½ï¿½À€ï¿½ï¿½:À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€Bï¿½À€ï¿½ï¿½:À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½À€ï¿½w:À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½XPu9À€À€ï¿½À€À€ï¿½ï¿½À€ï¿½7:À€À€PÀ€À€HXP39À€À€PÀ€À€ï¿½ï¿½À€ï¿½ï¿½9À€À€À€À€
+W/DroidBox(  981): XPï¿½8À€À€À€À€Jï¿½À€ï¿½ï¿½9À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À
+W/DroidBox(  981): €À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½À€ï¿½ï¿½<À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½W<À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½<À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€Yï¿½À€ï¿½ï¿½;À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½À€ï¿½ï¿½;À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½W;À€À€pÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½;À€À€0À€À€À€À€À€À€À€À€À€À€À€À€À€À€aï¿½À€ï¿½ï¿½:À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€#ï¿½À€ï¿½ï¿½:À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½XPï¿½9À€À€ï¿½À€À€ï¿½ï¿½À€ï¿½W:À€À€pÀ€À€gXPT9À€À€pÀ€À€ï¿½ï¿½À€ï¿½:À€À€0À€À€)XP9À€À€0À€À€iï¿½À€ï¿½ï¿½9À€À€ï¿½À€À€+ï¿½À€ï¿½ï¿½8À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€2ï¿½À€ï¿½ï¿½<À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½w<À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½7<À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€xï¿½À€ï¿½ï
+W/DroidBox(  981): xï¿½À€ï¿½ï¿½;À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€:ï¿½À€ï¿½ï¿½;À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½w;À€À€ï¿½À€À€À€À€À€À€À€À€À€À€À€À€À€À€ï¿½ï¿½À€ï¿½7;À€À€PÀ€À€À€À€À€À€À€À€À€À€À€À€À€À€PAMRï¿½À€À€ À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€ï¿½À€À€À€,À€À€\À€À€xÀ€À€ï¿½À€À€ï¿½À€À€ï¿½À€À€À€À€4À€À€PÀ€À€ï¿½À€À€ï¿½À€À€À€À€À€À€À€À€À€À€ï¿½À€À€ï¿½À€À€ï¿½À€À€À€À€À€À€À€|À€À€ï¿½À€À€ï¿½À€À€ï¿½À€À€À€À€ À€À€LÀ€À€lÀ€À€ï¿½À€À€ï¿½À€À€À€À€À€À€À€À€	À€À€À€À€
+W/DroidBox(  981): 
+W/DroidBox(  981): #
+W/DroidBox(  981): 
+W/DroidBox(  981): #À€À€À€À€À€À€À€	À€À€À€À€À€À€À€À€
+W/DroidBox(  981): À€À€	À€À€À€À€À€À€7À€9À€0a
+W/DroidBox(  981): 												À€À€À€À€À€À€À€À€À€ï¿½
+W/DroidBox(  981): 						À€À€À€À€À€À€À€	!
+W/DroidBox(  981): 	À€À€À€À€À€À€À€À€À€@À€		À€À€0
+W/DroidBox(  981): 			
+W/DroidBox(  981): 	
+W/DroidBox(  981): À€À€À€À€À€À€À€À€À€À€À€À€
+W/DroidBox(  981): 						À€À€!			!#
+W/DroidBox(  981): À€À€À€À€À€À€
+W/DroidBox(  981): 		À€À€	#!#
+W/DroidBox(  981): À€À€À€À€À€À€À€À€!		
+W/DroidBox(  981): À€À€À€À€À€À€À€	À€
+W/DroidBox(  981): À€!	
+W/DroidBox(  981): À€À€À€À€À€
+W/DroidBox(  981): €À€À€À€À€$À€%À€!										
+W/DroidBox(  981): À€À€À€À€À€À€À€À€	À€ï¿½À€À€
+W/DroidBox(  981): 							À€À€@
+W/DroidBox(  981): 	CAC	@
+W/DroidBox(  981): À€À€	
+W/DroidBox(  981): 	À€À€À€À€À€À€À€À€!		
+W/DroidBox(  981): À€À€	À€À€À€À€À€À€	À€
+W/DroidBox(  981): 	
+W/DroidBox(  981): 
+W/DroidBox(  981): 
+W/DroidBox(  981): À€À€0	
+W/DroidBox(  981): 							À€
+W/DroidBox(  981): À€					À€	
+W/DroidBox(  981): 9À€; 	#
+W/DroidBox(  981): #
+W/DroidBox(  981): À€#35A
+W/DroidBox(  981): 1	
+W/DroidBox(  981): 3		35	
+W/DroidBox(  981): 1	
+W/DroidBox(  981): 3		35	
+W/DroidBox(  981): 1	
+W/DroidBox(  981): #ï¿½ À€$ï¿½	À€
+W/DroidBox(  981): À€				À€ 1C
+W/DroidBox(  981): 
+W/DroidBox(  981): 
+W/DroidBox(  981): 	
+W/DroidBox(  981): 
+W/DroidBox(  981): 	
+W/DroidBox(  981): 	À€À€À€À€À€À€À€@aq
+W/DroidBox(  981): ï¿½A@	ï¿½ï¿½ï¿½dï¿½1			ï¿½@@		À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€	!#			ï¿½
+W/DroidBox(  981): 		À€À€		$
+W/DroidBox(  981): 	2Bb
+W/DroidBox(  981): 	ï¿½ï¿½	À€À€À€				
+W/DroidBox(  981): 	À€À€À€À€À€À€À€!
+W/DroidBox(  981): "!								ï¿½À€À€À€À€À€À€À€À€	À€		
+W/DroidBox(  981): À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@!
+W/DroidBox(  981): 3	C		QS	ï¿½E	
+W/DroidBox(  981): 		À€À€À€À€À€À€À€À€À€À€À€À€À€À€À€@
+W/DroidBox(  981): !
+W/DroidBox(  981): 	
+W/DroidBox(  981): 3ï¿½B#ï¿½Cï¿½O
+W/DroidBox(  981): ï¿½BÀ€À€À€À€À€À€À€À€À€@			À€À€À€À€À€À€À€%	 	!
+W/DroidBox(  981): 	ï¿½		
+W/DroidBox(  981): 	ï¿½		À€À€À€À€À€À€!À€aq	ï¿½ï¿½	ï¿½ï¿½q			ï¿½ï¿½ï¿½ï¿½tpï¿½s
+W/DroidBox(  981): À€À€À€À€À€À€À€
+W/DroidBox(  981): À€À€À€
+W/DroidBox(  981): 		DNEAÀ€À€À€À€" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f63616368652f313532393536373336313532342e746d70", "id": "1562273255" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "0aefbfbdefbfbd01442f37674954517432305831537a693570504a6962577061594a366f414155377349447a2b5136596d32437a2f475856446b6379434d376c555758514c5658557a2f646277327866335a4e724e475838416366316e424d5a476f7776644f4d37", "id": "1562273255" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+D/zzdb    (  981): File /data/data/com.wigoal.eyeguard/cache/1529567361524.dex not found. No need for deletion
+W/dalvikvm(  981): VFY: unable to resolve static method 50220: Ljava/util/concurrent/ThreadLocalRandom;.current ()Ljava/util/concurrent/ThreadLocalRandom;
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.u" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.x" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.p" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.v" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.m" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.r" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.t" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.ad" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.ae" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.k" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f313033362f636d646c696e65", "id": "838389046" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "70726f6372616e6b006c2e65796567756172640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f7374726163655f6d6f6e6b65792e747874006434623833", "id": "838389046" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.ab" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.o" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.n" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.y" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.ac" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.l" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.af" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "173918153" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.s" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c6c6f6e67206e616d653d226c6173745f636865636b5f7570646174655f74696d65222076", "id": "173918153" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.aa" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.z" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.j" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.q" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "com.google.android.ads.z__.w" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "-76, -96, -61, 67, 53, 20, -81, 9, 25, -93, 0, 108, -109, 37, -99, 52", "algorithm": "AES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "AES/CBC/PKCS5Padding", "data": "a" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): VFY: unable to resolve static method 28: Landroid/provider/Settings$Global;.getInt (Landroid/content/ContentResolver;Ljava/lang/String;)I
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353132305d", "id": "884161567" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "20205049442020202020205673732020202020205273732020202020205073732020202020205573732020636d646c696e650a202035343120202036303932384b20202036303833324b20202032363136334b20202032313331324b2020636f6d2e616e", "id": "884161567" } }
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353132305d", "id": "483075038" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "483075038" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+I/tag     (  981): Intent { cmp=com.wigoal.eyeguard/com.ad.s.dv.js (has extras) }è¿›å…¥äº†onStartCommandtruecom.wigoal.eyeguard.application.MyApplication@b3d9c370
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "1039871266" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f70726f632f6d656d696e666f", "id": "91073134" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343239333434206b420a427566666572733a20202020202020202020202035373132206b420a4361636865643a202020202020202020", "id": "91073134" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "1039871266" } }
+I/Choreographer(  981): Skipped 1672 frames!  The application may be doing too much work on its main thread.
+I/tag     (  981): parame:{androidId=25a0d0c0761b3b48, NetState=1, times=1718098207284, UID=, subid=181204}
+I/tag     (  981): ===============
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox(  981): DroidBox: { "CryptoUsage": { "operation": "encryption", "algorithm": "DES", "data": "{"androidId":"25a0d0c0761b3b48","NetState":"1","times":"1718098207284","UID":"","subid":"181204"}" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "650098904" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "650098904" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f6465762f7572616e646f6d", "id": "380997058" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "read", "data": "efbfbdefbfbd412039efbfbdefbfbd6cefbfbdefbfbdefbfbd5e4eefbfbd4defbfbd44efbfbd56", "id": "380997058" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "2005783580" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "2005783580" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+I/ActivityManager(  220): START {cmp=com.wigoal.eyeguard/.MainActivity u=0} from pid 981
+W/WindowManager(  220): Failure taking screenshot for (246x410) to layer 21015
+E/WVMExtractor(   62): Failed to open libwvm.so
+I/Choreographer(  981): Skipped 165 frames!  The application may be doing too much work on its main thread.
+W/BackupManagerService(  220): dataChanged but no participant pkg='com.android.providers.settings' uid=1001
+W/ActivityManager(  220): Activity pause timeout for ActivityRecord{b3f2f7f0 com.wigoal.eyeguard/.activity.SplashActivity}
+D/gralloc_goldfish(  981): Emulator without GPU emulation detected.
+I/ActivityManager(  220): Displayed com.wigoal.eyeguard/.activity.SplashActivity: +20s95ms
+W/InputMethodManagerService(  220): Focus gain on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@b4233d68 (uid=10050 pid=981)
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "48" } }
+I/qtaguid (  220): Failed write_ctrl(s 0 10019) res=-1 errno=1
+W/NetworkManagementSocketTagger(  220): setKernelCountSet(10019, 0) failed with errno -1
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23694: Landroid/view/Window;.setNavigationBarColor (I)V
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/dalvikvm(  981): VFY: unable to resolve static method 2381: Landroid/provider/Settings;.canDrawOverlays (Landroid/content/Context;)Z
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "35.167.75.20", "destport": "9082", "fd": "49" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 893: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23666: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
+W/dalvikvm(  981): VFY: unable to resolve interface method 23668: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+W/dalvikvm(  981): VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+W/dalvikvm(  981): VFY: unable to resolve interface method 23670: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+W/dalvikvm(  981): VFY: unable to resolve interface method 23674: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+W/DroidBox(  981): DroidBox: { "SendNet": { "operation": "send", "data": "504f5354202f2f6f76732f637573746f6d65722f686561727442656174322e646f20485454502f312e310d0a436f6e74656e742d547970653a20746578742f706c61696e0d0a557365722d4167656e743a2044616c76696b2f312e362e3020284c696e75", "desthost": "35.167.75.20", "destport": "9082" , "fd": "49"} }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1150: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1172: Landroid/content/res/TypedArray;.getType (I)I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 860: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 868: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 869: Landroid/content/Context;.getColor (I)I
+W/DroidBox(  981): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "485454502f312e3120323030204f4b0d0a5365727665723a206f70656e72657374792f312e31372e382e320d0a446174653a205475652c203131204a756e20323032342031323a33303a313020474d540d0a436f6e74656e742d547970653a2074657874", "srcport": "9082", "fd": "49" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 870: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 872: Landroid/content/Context;.getDataDir ()Ljava/io/File;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 875: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+W/DroidBox(  981): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "756e6b65640d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a0d0a32630d0a487134714438763042364c347267644d575659726d657a45736f327438733732746d6645697961755865453d0d0a300d0a0d0a742d547970653a2074657874", "srcport": "9082", "fd": "49" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 877: Landroid/content/Context;.getExternalCacheDirs ()[Ljava/io/File;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 879: Landroid/content/Context;.getExternalFilesDirs (Ljava/lang/String;)[Ljava/io/File;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 884: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 886: Landroid/content/Context;.getObbDirs ()[Ljava/io/File;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 893: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 895: Landroid/content/Context;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 898: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 913: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "174840026" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "0a0a2d2d2d2d2d207069642032323020617420323032342d30362d31312030393a32393a3535202d2d2d2d2d0a436d64206c696e653a2073797374656d5f7365727665720a0a44414c56494b20544852454144533a0a286d7574657865733a20746c6c3d", "id": "174840026" } }
+E/WVMExtractor(   62): Failed to open libwvm.so
+E/MetadataRetrieverClient(   62): failed to extract an album art
+E/WVMExtractor(   62): Failed to open libwvm.so
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "2034522302" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "20202330372020706320303030313264623020202f73797374656d2f6c69622f6c6962632e736f20285f5f7468726561645f656e7472792b3438290a20202330382020706320303030313235313420202f73797374656d2f6c69622f6c6962632e736f20", "id": "2034522302" } }
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1307261146" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "544956450a20207c2067726f75703d226d61696e222073436f756e743d31206473436f756e743d30206f626a3d307862336635356535302073656c663d307862383664643630380a20207c207379735469643d343433206e6963653d302073636865643d", "id": "1307261146" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23154: Landroid/view/View;.addKeyboardNavigationClusters (Ljava/util/Collection;I)V
+W/dalvikvm(  981): Link of class 'Landroid/support/v4/view/ViewCompat$OnUnhandledKeyEventListenerWrapper;' failed
+E/dalvikvm(  981): Could not find class 'android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper', referenced from method android.support.v4.view.ViewCompat.addOnUnhandledKeyEventListener
+W/dalvikvm(  981): VFY: unable to resolve new-instance 2011 (Landroid/support/v4/view/ViewCompat$OnUnhandledKeyEventListenerWrapper;) in Landroid/support/v4/view/ViewCompat;
+E/MetadataRetrieverClient(   62): failed to extract an album art
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23163: Landroid/view/View;.cancelDragAndDrop ()V
+E/dalvikvm(  981): Could not find class 'android.view.WindowInsets', referenced from method android.support.v4.view.ViewCompat.dispatchApplyWindowInsets
+W/dalvikvm(  981): VFY: unable to resolve check-cast 2881 (Landroid/view/WindowInsets;) in Landroid/support/v4/view/ViewCompat;
+I/ActivityManager(  220): No longer want com.android.contacts (pid 642): hidden #16
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23172: Landroid/view/View;.dispatchNestedFling (FFZ)Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23173: Landroid/view/View;.dispatchNestedPreFling (FF)Z
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1791975760" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "30322020706320303030313439616420202f73797374656d2f6c69622f6c69627574696c732e736f2028616e64726f69643a3a4c6f6f7065723a3a706f6c6c4f6e636528696e742c20696e742a2c20696e742a2c20766f69642a2a292b313034290a2020", "id": "1791975760" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23174: Landroid/view/View;.dispatchNestedPreScroll (II[I[I)Z
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f313035372f636d646c696e65", "id": "375038636" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636174002f646174612f616e722f7472616365732e747874000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f7374726163655f6d6f6e6b65792e747874006434623833", "id": "375038636" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23175: Landroid/view/View;.dispatchNestedScroll (IIII[I)Z
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "829826838" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "656d2f6c69622f6c6962616e64726f69645f72756e74696d652e736f2028616e64726f69643a3a4e61746976654d65737361676551756575653a3a706f6c6c4f6e6365285f4a4e49456e762a2c20696e74292b3232290a20202330342020706320303030", "id": "829826838" } }
+W/dalvikvm(  981): VFY: unable to resolve static method 23184: Landroid/view/View;.generateViewId ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23185: Landroid/view/View;.getAccessibilityLiveRegion ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23191: Landroid/view/View;.getBackgroundTintList ()Landroid/content/res/ColorStateList;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23192: Landroid/view/View;.getBackgroundTintMode ()Landroid/graphics/PorterDuff$Mode;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23195: Landroid/view/View;.getClipBounds ()Landroid/graphics/Rect;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23198: Landroid/view/View;.getDisplay ()Landroid/view/Display;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23202: Landroid/view/View;.getElevation ()F
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23210: Landroid/view/View;.getImportantForAutofill ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23212: Landroid/view/View;.getLabelFor ()I
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "466821300" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "69622f6c6962632e736f202865706f6c6c5f776169742b3132290a20202330312020706320303030313437353120202f73797374656d2f6c69622f6c69627574696c732e736f2028616e64726f69643a3a4c6f6f7065723a3a706f6c6c496e6e65722869", "id": "466821300" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23228: Landroid/view/View;.getNextClusterForwardId ()I
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "505682705" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "3337204e41544956450a20207c2067726f75703d226d61696e222073436f756e743d31206473436f756e743d30206f626a3d307862343239353734302073656c663d307862383665333236300a20207c207379735469643d323932206e6963653d302073", "id": "505682705" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23249: Landroid/view/View;.getScrollIndicators ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23255: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23258: Landroid/view/View;.getTranslationZ ()F
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23269: Landroid/view/View;.getZ ()F
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23270: Landroid/view/View;.hasExplicitFocusable ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23273: Landroid/view/View;.hasNestedScrollingParent ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23280: Landroid/view/View;.isAttachedToWindow ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23285: Landroid/view/View;.isFocusedByDefault ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23287: Landroid/view/View;.isImportantForAutofill ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23289: Landroid/view/View;.isInLayout ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23290: Landroid/view/View;.isKeyboardNavigationCluster ()Z
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1881052494" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "736f2028707468726561645f6372656174652b313732290a2020617420616e64726f69642e6f732e4d65737361676551756575652e6e6174697665506f6c6c4f6e6365284e6174697665204d6574686f64290a2020617420616e64726f69642e6f732e4d", "id": "1881052494" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23291: Landroid/view/View;.isLaidOut ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23292: Landroid/view/View;.isLayoutDirectionResolved ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23295: Landroid/view/View;.isNestedScrollingEnabled ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23301: Landroid/view/View;.keyboardNavigationClusterSearch (Landroid/view/View;I)Landroid/view/View;
+E/dalvikvm(  981): Could not find class 'android.view.WindowInsets', referenced from method android.support.v4.view.ViewCompat.onApplyWindowInsets
+W/dalvikvm(  981): VFY: unable to resolve check-cast 2881 (Landroid/view/WindowInsets;) in Landroid/support/v4/view/ViewCompat;
+E/dalvikvm(  981): Could not find class 'android.view.View$OnUnhandledKeyEventListener', referenced from method android.support.v4.view.ViewCompat.removeOnUnhandledKeyEventListener
+W/dalvikvm(  981): VFY: unable to resolve check-cast 2856 (Landroid/view/View$OnUnhandledKeyEventListener;) in Landroid/support/v4/view/ViewCompat;
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "471307012" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "756e284e6174697665204d6574686f64290a0a22536f756e64506f6f6c54687265616422207072696f3d35207469643d3235204e41544956450a20207c2067726f75703d226d61696e222073436f756e743d31206473436f756e743d30206f626a3d3078", "id": "471307012" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23334: Landroid/view/View;.requestApplyInsets ()V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23340: Landroid/view/View;.requireViewById (I)Landroid/view/View;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23343: Landroid/view/View;.restoreDefaultFocus ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23348: Landroid/view/View;.setAccessibilityLiveRegion (I)V
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1739434422" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "6630623020202f73797374656d2f6c69622f6c696264766d2e736f202864766d506c6174666f726d496e766f6b652b313132290a20202330352020706320303030353131323120202f73797374656d2f6c69622f6c696264766d2e736f202864766d4361", "id": "1739434422" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23351: Landroid/view/View;.setAutofillHints ([Ljava/lang/String;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23355: Landroid/view/View;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23356: Landroid/view/View;.setBackgroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23359: Landroid/view/View;.setClipBounds (Landroid/graphics/Rect;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23362: Landroid/view/View;.setElevation (F)V
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "762583832" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "5468726561642a292b343132290a20202330342020706320303030336366663120202f73797374656d2f6c69622f6c696264766d2e736f202864766d436865636b43616c6c4a4e494d6574686f6428756e7369676e656420696e7420636f6e73742a2c20", "id": "762583832" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23366: Landroid/view/View;.setFocusedByDefault (Z)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23370: Landroid/view/View;.setImportantForAutofill (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23371: Landroid/view/View;.setKeyboardNavigationCluster (Z)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23372: Landroid/view/View;.setLabelFor (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23373: Landroid/view/View;.setLayerPaint (Landroid/graphics/Paint;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23381: Landroid/view/View;.setNestedScrollingEnabled (Z)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23382: Landroid/view/View;.setNextClusterForwardId (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23383: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "753463079" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "756e743d30206f626a3d307862336437643832302073656c663d307862383633326566300a20207c207379735469643d323238206e6963653d302073636865643d302f3020636772703d617070732068616e646c653d2d313230313437323336380a2020", "id": "753463079" } }
+W/dalvikvm(  981): Link of class 'Landroid/support/v4/view/ViewCompat$1;' failed
+E/dalvikvm(  981): Could not find class 'android.support.v4.view.ViewCompat$1', referenced from method android.support.v4.view.ViewCompat.setOnApplyWindowInsetsListener
+W/dalvikvm(  981): VFY: unable to resolve new-instance 2005 (Landroid/support/v4/view/ViewCompat$1;) in Landroid/support/v4/view/ViewCompat;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23395: Landroid/view/View;.setPointerIcon (Landroid/view/PointerIcon;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23404: Landroid/view/View;.setScrollIndicators (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23405: Landroid/view/View;.setScrollIndicators (II)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23413: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23415: Landroid/view/View;.setTransitionName (Ljava/lang/String;)V
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1474401259" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "74696d652e736f2028616e64726f69643a3a416e64726f696452756e74696d653a3a6a6176615468726561645368656c6c28766f69642a292b3636290a20202330372020706320303030313061373520202f73797374656d2f6c69622f6c69627574696c", "id": "1474401259" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23418: Landroid/view/View;.setTranslationZ (F)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23423: Landroid/view/View;.setZ (F)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23426: Landroid/view/View;.startDragAndDrop (Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23427: Landroid/view/View;.startNestedScroll (I)Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23428: Landroid/view/View;.stopNestedScroll ()V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23429: Landroid/view/View;.updateDragShadow (Landroid/view/View$DragShadowBuilder;)V
+W/dalvikvm(  981): Link of class 'Landroid/support/v4/view/ViewCompat$OnUnhandledKeyEventListenerWrapper;' failed
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1633769213" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "506c6174666f726d496e766f6b652b313132290a20202330352020706320303030353131323120202f73797374656d2f6c69622f6c696264766d2e736f202864766d43616c6c4a4e494d6574686f6428756e7369676e656420696e7420636f6e73742a2c", "id": "1633769213" } }
+W/dalvikvm(  981): Link of class 'Landroid/support/v4/view/ViewCompat$1;' failed
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "798601" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "2b3936290a20202330322020706320303030313439616420202f73797374656d2f6c69622f6c69627574696c732e736f2028616e64726f69643a3a4c6f6f7065723a3a706f6c6c4f6e636528696e742c20696e742a2c20696e742a2c20766f69642a2a29", "id": "798601" } }
+W/dalvikvm(  981): Link of class 'Landroid/support/v4/widget/DrawerLayout$1;' failed
+E/dalvikvm(  981): Could not find class 'android.support.v4.widget.DrawerLayout$1', referenced from method android.support.v4.widget.DrawerLayout.<init>
+W/dalvikvm(  981): VFY: unable to resolve new-instance 2089 (Landroid/support/v4/widget/DrawerLayout$1;) in Landroid/support/v4/widget/DrawerLayout;
+E/dalvikvm(  981): Could not find class 'android.view.WindowInsets', referenced from method android.support.v4.widget.DrawerLayout.onDraw
+W/dalvikvm(  981): VFY: unable to resolve check-cast 2881 (Landroid/view/WindowInsets;) in Landroid/support/v4/widget/DrawerLayout;
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "2142423197" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "3720202f73797374656d2f6c69622f6c696264766d2e736f0a20202331362020706320303030343438633520202f73797374656d2f6c69622f6c6962616e64726f69645f72756e74696d652e736f0a20202331372020706320303030343533613720202f", "id": "2142423197" } }
+W/ActivityManager(  220): Launch timeout has expired, giving up wake lock!
+E/dalvikvm(  981): Could not find class 'android.view.WindowInsets', referenced from method android.support.v4.widget.DrawerLayout.onMeasure
+W/dalvikvm(  981): VFY: unable to resolve check-cast 2881 (Landroid/view/WindowInsets;) in Landroid/support/v4/widget/DrawerLayout;
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "881915501" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "622f6c6962632e736f20285f5f66757465785f73797363616c6c332b38290a20202330312020706320303030313264663420202f73797374656d2f6c69622f6c6962632e736f20285f5f707468726561645f636f6e645f74696d6564776169745f72656c", "id": "881915501" } }
+E/dalvikvm(  981): Could not find class 'android.view.WindowInsets', referenced from method android.support.v4.widget.DrawerLayout.onMeasure
+W/dalvikvm(  981): VFY: unable to resolve check-cast 2881 (Landroid/view/WindowInsets;) in Landroid/support/v4/widget/DrawerLayout;
+W/dalvikvm(  981): Link of class 'Landroid/support/v4/widget/DrawerLayout$1;' failed
+W/ActivityManager(  220): Activity idle timeout for ActivityRecord{b41db5a0 com.wigoal.eyeguard/.MainActivity}
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "335386119" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "226d61696e222073436f756e743d31206473436f756e743d30206f626a3d307862336534636166302073656c663d307862383561363361300a20207c207379735469643d31303136206e6963653d302073636865643d302f3020636772703d6170707320", "id": "335386119" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 17341: Landroid/support/v7/view/ContextThemeWrapper;.createConfigurationContext (Landroid/content/res/Configuration;)Landroid/content/Context;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 5310: Landroid/support/design/widget/AppBarLayout;.setKeyboardNavigationCluster (Z)V
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "132068423" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "63757272656e742e546872656164506f6f6c4578656375746f7224576f726b65722e72756e28546872656164506f6f6c4578656375746f722e6a6176613a353639290a20206174206a6176612e6c616e672e5468726561642e72756e285468726561642e", "id": "132068423" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 5318: Landroid/support/design/widget/AppBarLayout;.setTouchscreenBlocksFocus (Z)V
+W/ActivityManager(  220): Activity destroy timeout for ActivityRecord{b3f2f7f0 com.wigoal.eyeguard/.activity.SplashActivity}
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "1788548417" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "722e72756e28546872656164506f6f6c4578656375746f722e6a6176613a353639290a20206174206a6176612e6c616e672e5468726561642e72756e285468726561642e6a6176613a383536290a0a2242696e6465725f3222207072696f3d3520746964", "id": "1788548417" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23536: Landroid/view/ViewGroup;.onRtlPropertiesChanged (I)V
+E/Ads     (  981): Error waiting for future.
+E/Ads     (  981): java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException
+E/Ads     (  981): 	at com.google.android.gms.internal.ads.zzaps.get(Unknown Source)
+E/Ads     (  981): 	at com.google.android.gms.internal.ads.zzaox.zza(Unknown Source)
+E/Ads     (  981): 	at com.google.android.gms.internal.ads.zzagx.zza(Unknown Source)
+E/Ads     (  981): 	at com.google.android.gms.internal.ads.zzagx.zzb(Unknown Source)
+E/Ads     (  981): 	at com.google.android.gms.internal.ads.zzagz.run(Unknown Source)
+E/Ads     (  981): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+E/Ads     (  981): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/Ads     (  981): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/Ads     (  981): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+E/Ads     (  981): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+E/Ads     (  981): 	at java.lang.Thread.run(Thread.java:856)
+E/Ads     (  981): Caused by: java.util.concurrent.TimeoutException
+E/Ads     (  981): 	at com.google.android.gms.internal.ads.zzapb.run(Unknown Source)
+E/Ads     (  981): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:442)
+E/Ads     (  981): 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+E/Ads     (  981): 	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+E/Ads     (  981): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:150)
+E/Ads     (  981): 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:264)
+E/Ads     (  981): 	... 3 more
+W/Ads     (  981): There was a problem getting an ad response. ErrorCode: 0
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "893186674" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "6c6c28766f69642a292b3636290a20202330372020706320303030313061373520202f73797374656d2f6c69622f6c69627574696c732e736f0a20202330382020706320303030313264623020202f73797374656d2f6c69622f6c6962632e736f20285f", "id": "893186674" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 870: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+W/dalvikvm(  981): VFY: unable to resolve direct method 24487: Landroid/widget/LinearLayout$LayoutParams;.<init> (Landroid/widget/LinearLayout$LayoutParams;)V
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353433325d", "id": "527077891" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "20202f73797374656d2f6c69622f6c696264766d2e736f0a20202330352020706320303030353762616620202f73797374656d2f6c69622f6c696264766d2e736f0a20202330362020706320303030313264623020202f73797374656d2f6c69622f6c69", "id": "527077891" } }
+W/dalvikvm(  981): VFY: unable to resolve direct method 24487: Landroid/widget/LinearLayout$LayoutParams;.<init> (Landroid/widget/LinearLayout$LayoutParams;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 34: Landroid/animation/AnimatorSet;.pause ()V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 40: Landroid/animation/AnimatorSet;.resume ()V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24801: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24802: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24803: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24804: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24805: Landroid/widget/TextView;.getAutoSizeTextType ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24869: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24870: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24871: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24887: Landroid/widget/TextView;.setFirstBaselineToTopHeight (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24893: Landroid/widget/TextView;.setLastBaselineToBottomHeight (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1113: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1115: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24803: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+W/dalvikvm(  981): VFY: unable to resolve static method 22720: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24858: Landroid/widget/TextView;.isInLayout ()Z
+E/dalvikvm(  981): Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+W/dalvikvm(  981): VFY: unable to resolve instanceof 298 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23435: Landroid/view/ViewConfiguration;.getScaledHorizontalScrollFactor ()F
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23436: Landroid/view/ViewConfiguration;.getScaledHoverSlop ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23441: Landroid/view/ViewConfiguration;.getScaledVerticalScrollFactor ()F
+W/dalvikvm(  981): VFY: unable to resolve virtual method 23444: Landroid/view/ViewConfiguration;.shouldShowMenuShortcutsWhenKeyboardPresent ()Z
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f313035382f636d646c696e65", "id": "133731529" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "64756d70737973006d656d696e666f00616365732e747874000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f7374726163655f6d6f6e6b65792e747874006434623833", "id": "133731529" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 75: Landroid/animation/ObjectAnimator;.setAutoCancel (Z)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 24230: Landroid/widget/CompoundButton;.drawableHotspotChanged (FF)V
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "706970653a5b353435325d", "id": "321289048" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "write", "data": "4170706c69636174696f6e73204d656d6f727920557361676520286b42293a0a557074696d653a20313132393737205265616c74696d653a203131323937370a0a546f74616c205053532062792070726f636573733a0a202020203236333637206b423a", "id": "321289048" } }
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353435325d", "id": "1300127439" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "4170706c69636174696f6e73204d656d6f727920557361676520286b42293a0a557074696d653a20313132393737205265616c74696d653a203131323937370a0a546f74616c205053532062792070726f636573733a0a202020203236333637206b423a", "id": "1300127439" } }
+E/GraphResponse(  981): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/dalvikvm(  963): DroidBox: { "FdAccess": { "path": "706970653a5b353435325d", "id": "763270077" } }
+W/DroidBox(  963): DroidBox: { "FileRW": { "operation": "read", "data": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "id": "763270077" } }
+W/dalvikvm(  981): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f636f6d2e7769676f616c2e65796567756172645f707265666572656e6365732e786d6c", "id": "1311828144" } }
+W/DroidBox(  981): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22636f6d2e66616365626f6f6b2e6170706576656e74732e", "id": "1311828144" } }
+I/AndroidRuntime(  963): VM exiting with result code 11.
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1555: Landroid/graphics/drawable/Drawable;.applyTheme (Landroid/content/res/Resources$Theme;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1556: Landroid/graphics/drawable/Drawable;.canApplyTheme ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1646: Landroid/graphics/drawable/InsetDrawable;.getDrawable ()Landroid/graphics/drawable/Drawable;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1617: Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;.getChild (I)Landroid/graphics/drawable/Drawable;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1563: Landroid/graphics/drawable/Drawable;.getAlpha ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1567: Landroid/graphics/drawable/Drawable;.getColorFilter ()Landroid/graphics/ColorFilter;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1574: Landroid/graphics/drawable/Drawable;.getLayoutDirection ()I
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1584: Landroid/graphics/drawable/Drawable;.inflate (Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1586: Landroid/graphics/drawable/Drawable;.isAutoMirrored ()Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1598: Landroid/graphics/drawable/Drawable;.setAutoMirrored (Z)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1607: Landroid/graphics/drawable/Drawable;.setHotspot (FF)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1608: Landroid/graphics/drawable/Drawable;.setHotspotBounds (IIII)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1609: Landroid/graphics/drawable/Drawable;.setLayoutDirection (I)Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1612: Landroid/graphics/drawable/Drawable;.setTint (I)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1613: Landroid/graphics/drawable/Drawable;.setTintList (Landroid/content/res/ColorStateList;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1614: Landroid/graphics/drawable/Drawable;.setTintMode (Landroid/graphics/PorterDuff$Mode;)V
+E/GraphResponse(  981): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1586: Landroid/graphics/drawable/Drawable;.isAutoMirrored ()Z
+W/AnalyticsUserIDStore(  981): initStore should have been called before calling setUserID
+W/UserDataStore(  981): initStore should have been called before calling setUserID
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "55" } }
+W/dalvikvm(  981): VFY: unable to resolve virtual method 1598: Landroid/graphics/drawable/Drawable;.setAutoMirrored (Z)V
+E/GraphResponse(  981): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "59" } }
+W/dalvikvm(  981): VFY: unable to resolve interface method 23034: Landroid/view/MenuItem;.getAlphabeticModifiers ()I
+W/dalvikvm(  981): VFY: unable to resolve interface method 23035: Landroid/view/MenuItem;.getContentDescription ()Ljava/lang/CharSequence;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23038: Landroid/view/MenuItem;.getIconTintList ()Landroid/content/res/ColorStateList;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23039: Landroid/view/MenuItem;.getIconTintMode ()Landroid/graphics/PorterDuff$Mode;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23042: Landroid/view/MenuItem;.getNumericModifiers ()I
+W/dalvikvm(  981): VFY: unable to resolve interface method 23045: Landroid/view/MenuItem;.getTooltipText ()Ljava/lang/CharSequence;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23054: Landroid/view/MenuItem;.setAlphabeticShortcut (CI)Landroid/view/MenuItem;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23057: Landroid/view/MenuItem;.setContentDescription (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23061: Landroid/view/MenuItem;.setIconTintList (Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
+E/GraphResponse(  981): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/dalvikvm(  981): VFY: unable to resolve interface method 23062: Landroid/view/MenuItem;.setIconTintMode (Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23064: Landroid/view/MenuItem;.setNumericShortcut (CI)Landroid/view/MenuItem;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23067: Landroid/view/MenuItem;.setShortcut (CCII)Landroid/view/MenuItem;
+W/dalvikvm(  981): VFY: unable to resolve interface method 23071: Landroid/view/MenuItem;.setTooltipText (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+E/dalvikvm(  981): Could not find class 'android.app.NotificationChannel', referenced from method com.wigoal.eyeguard.model.FunctionExecute.showButtonNotify
+W/dalvikvm(  981): VFY: unable to resolve new-instance 64 (Landroid/app/NotificationChannel;) in Lcom/wigoal/eyeguard/model/FunctionExecute;
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/GooglePlayServicesUtil(  981): Google Play Store is missing.
+W/DroidBox(  981): DroidBox: { "OpenNet": { "desthost": "142.251.37.238", "destport": "443", "fd": "63" } }
+E/dalvikvm(  981): Could not find class 'android.media.AudioAttributes$Builder', referenced from method android.support.v4.app.NotificationCompat$Builder.setSound
+W/dalvikvm(  981): VFY: unable to resolve new-instance 325 (Landroid/media/AudioAttributes$Builder;) in Landroid/support/v4/app/NotificationCompat$Builder;
+E/dalvikvm(  981): Could not find class 'android.media.AudioAttributes$Builder', referenced from method android.support.v4.app.NotificationCompat$Builder.setSound
+W/dalvikvm(  981): VFY: unable to resolve new-instance 325 (Landroid/media/AudioAttributes$Builder;) in Landroid/support/v4/app/NotificationCompat$Builder;
+W/dalvikvm(  981): VFY: unable to resolve direct method 371: Landroid/app/Notification$Builder;.<init> (Landroid/content/Context;Ljava/lang/String;)V
+W/dalvikvm(  981): VFY: unable to resolve virtual method 408: Landroid/app/Notification$Builder;.setShowWhen (Z)Landroid/app/Notification$Builder;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 399: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 379: Landroid/app/Notification$Builder;.setCategory (Ljava/lang/String;)Landroid/app/Notification$Builder;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 406: Landroid/app/Notification$Builder;.setRemoteInputHistory ([Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 378: Landroid/app/Notification$Builder;.setBadgeIconType (I)Landroid/app/Notification$Builder;
+E/dalvikvm(  981): Could not find class 'android.app.Notification$Action$Builder', referenced from method android.support.v4.app.NotificationCompatBuilder.addAction
+W/dalvikvm(  981): VFY: unable to resolve new-instance 51 (Landroid/app/Notification$Action$Builder;) in Landroid/support/v4/app/NotificationCompatBuilder;
+W/dalvikvm(  981): VFY: unable to resolve instance field 19
+W/dalvikvm(  981): VFY: unable to resolve virtual method 443: Landroid/app/Notification;.getGroup ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve instance field 19
+W/dalvikvm(  981): VFY: unable to resolve virtual method 443: Landroid/app/Notification;.getGroup ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 443: Landroid/app/Notification;.getGroup ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve instance field 9
+W/dalvikvm(  981): VFY: unable to resolve instance field 9
+W/dalvikvm(  981): DexOpt: resolve class illegal access: Landroid/support/v4/app/NotificationCompat; -> Landroid/app/Notification$Action;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 359: Landroid/app/Notification$Action;.getRemoteInputs ()[Landroid/app/RemoteInput;
+W/dalvikvm(  981): VFY: unable to resolve instance field 9
+W/dalvikvm(  981): VFY: unable to resolve virtual method 441: Landroid/app/Notification;.getBadgeIconType ()I
+W/dalvikvm(  981): VFY: unable to resolve instance field 13
+W/dalvikvm(  981): VFY: unable to resolve virtual method 442: Landroid/app/Notification;.getChannelId ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+W/dalvikvm(  981): VFY: unable to resolve virtual method 443: Landroid/app/Notification;.getGroup ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+W/dalvikvm(  981): VFY: unable to resolve virtual method 444: Landroid/app/Notification;.getGroupAlertBehavior ()I
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+W/dalvikvm(  981): VFY: unable to resolve virtual method 445: Landroid/app/Notification;.getShortcutId ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve virtual method 446: Landroid/app/Notification;.getSortKey ()Ljava/lang/String;
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+W/dalvikvm(  981): VFY: unable to resolve virtual method 447: Landroid/app/Notification;.getTimeoutAfter ()J
+W/dalvikvm(  981): VFY: unable to resolve instance field 17
+D/PhoneStatusBar(  356): addNotification score=0
+W/dalvikvm(  981): VFY: unable to resolve static method 2381: Landroid/provider/Settings;.canDrawOverlays (Landroid/content/Context;)Z
+W/dalvikvm(  981): VFY: unable to resolve virtual method 455: Landroid/app/NotificationManager;.getImportance ()I
+E/dalvikvm(  981): Could not find class 'android.app.AppOpsManager', referenced from method com.wigoal.eyeguard.util.MyAppUtil.isNotificationEnabled
+W/dalvikvm(  981): VFY: unable to resolve check-cast 41 (Landroid/app/AppOpsManager;) in Lcom/wigoal/eyeguard/util/MyAppUtil;
+W/DroidBox(  981): DroidBox: { "ServiceStart": { "name": "com.wigoal.eyeguard.service.ScreenFilterService" } }
+W/dalvikvm(  981): VFY: unable to resolve static method 2378: Landroid/provider/Settings$System;.canWrite (Landroid/content/Context;)Z
+D/AndroidRuntime(  981): Shutting down VM
+W/dalvikvm(  981): threadid=1: thread exiting with uncaught exception (group=0xb352ce20)
+E/AndroidRuntime(  981): FATAL EXCEPTION: main
+E/AndroidRuntime(  981): java.lang.NoClassDefFoundError: android.app.AppOpsManager
+E/AndroidRuntime(  981): 	at com.wigoal.eyeguard.util.MyAppUtil.isNotificationEnabled(MyAppUtil.java:79)
+E/AndroidRuntime(  981): 	at com.wigoal.eyeguard.MainActivity.isNotificationBar(MainActivity.java:919)
+E/AndroidRuntime(  981): 	at com.wigoal.eyeguard.MainActivity.restoreLatestSettings(MainActivity.java:1002)
+E/AndroidRuntime(  981): 	at com.wigoal.eyeguard.MainActivity.initView(MainActivity.java:221)
+E/AndroidRuntime(  981): 	at com.wigoal.eyeguard.MainActivity.onCreate(MainActivity.java:168)
+E/AndroidRuntime(  981): 	at android.app.Activity.performCreate(Activity.java:5017)
+E/AndroidRuntime(  981): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1079)
+E/AndroidRuntime(  981): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2023)
+E/AndroidRuntime(  981): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2084)
+E/AndroidRuntime(  981): 	at android.app.ActivityThread.access$600(ActivityThread.java:130)
+E/AndroidRuntime(  981): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1195)
+E/AndroidRuntime(  981): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+E/AndroidRuntime(  981): 	at android.os.Looper.loop(Looper.java:137)
+E/AndroidRuntime(  981): 	at android.app.ActivityThread.main(ActivityThread.java:4745)
+E/AndroidRuntime(  981): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/AndroidRuntime(  981): 	at java.lang.reflect.Method.invoke(Method.java:511)
+E/AndroidRuntime(  981): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:786)
+E/AndroidRuntime(  981): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+E/AndroidRuntime(  981): 	at dalvik.system.NativeStart.main(Native Method)
+W/ActivityManager(  220):   Force finishing activity com.wigoal.eyeguard/.MainActivity
+W/WindowManager(  220): Failure taking screenshot for (246x410) to layer 21015
+I/Process (  981): Sending signal. PID: 981 SIG: 9
+I/ActivityManager(  220): Process com.wigoal.eyeguard (pid 981) has died.
+I/WindowState(  220): WIN DEATH: Window{b413b6d0 com.wigoal.eyeguard/com.wigoal.eyeguard.activity.SplashActivity paused=false}
+W/ActivityManager(  220): Scheduling restart of crashed service com.wigoal.eyeguard/.service.ScreenFilterService in 5000ms
+I/qtaguid (  220): Failed write_ctrl(s 0 10050) res=-1 errno=1
+W/NetworkManagementSocketTagger(  220): setKernelCountSet(10050, 0) failed with errno -1
+W/ActivityManager(  220): Scheduling restart of crashed service com.wigoal.eyeguard/com.ad.s.dv.js in 68574ms
+I/qtaguid (  220): Failed write_ctrl(s 1 10019) res=-1 errno=1
+W/NetworkManagementSocketTagger(  220): setKernelCountSet(10019, 1) failed with errno -1
+W/InputMethodManagerService(  220): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@b3fd4a10 attribute=android.view.inputmethod.EditorInfo@b3fd4a28
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3232302f6e65742f78745f717461677569642f69666163655f737461745f616c6c", "id": "1869025383" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "6574683020312030203020302030203839383438343320393337322038363138373020363133310a6c6f20312030203020302030203231323420333120323132342033310a00000000000000000000000000000000000000000000000000000000000000", "id": "1869025383" } }
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f3232302f6e65742f78745f717461677569642f69666163655f737461745f616c6c", "id": "1953791959" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "33310a342033310a33310a342033310a310a310a310a310a310a33310a342033310a3132342033310a342033310a323132342033310a310a310a310a310a310a342033310a00000000000000000000000000000000000000000000000000000000000000", "id": "1953791959" } }
+W/ThrottleService(  220): unable to find stats for iface rmnet0
+E/ThrottleService(  220): Error reading data file
+I/ActivityManager(  220): Start proc com.wigoal.eyeguard for service com.wigoal.eyeguard/.service.ScreenFilterService: pid=1065 uid=10050 gids={3003, 1028, 1015}
+E/Trace   ( 1065): error opening trace file: No such file or directory (2)
+W/DroidBox( 1065): DroidBox: { "DexClassLoader": { "path": "/data/app/com.wigoal.eyeguard-1.apk" } }
+I/ActivityThread( 1065): Pub com.wigoal.eyeguard.mobileadsinitprovider: com.google.android.gms.ads.MobileAdsInitProvider
+W/dalvikvm( 1065): VFY: unable to resolve virtual method 1051: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+E/dalvikvm( 1065): Could not find class 'android.app.AppOpsManager', referenced from method com.google.android.gms.common.wrappers.PackageManagerWrapper.zzb
+W/dalvikvm( 1065): VFY: unable to resolve check-cast 41 (Landroid/app/AppOpsManager;) in Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+W/DynamiteModule( 1065): Failed to retrieve remote module version.
+E/ActivityThread( 1065): Failed to find provider info for com.google.android.gms.chimera
+E/dalvikvm( 1065): Could not find class 'android.os.UserManager', referenced from method com.google.android.gms.common.GooglePlayServicesUtilLight.isRestrictedUserProfile
+W/dalvikvm( 1065): VFY: unable to resolve check-cast 435 (Landroid/os/UserManager;) in Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
+W/dalvikvm( 1065): VFY: unable to resolve virtual method 1045: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+W/GooglePlayServicesUtil( 1065): Google Play Store is missing.
+W/DynamiteModule( 1065): Local module descriptor class for com.google.android.gms.measurement.dynamite not found.
+I/DynamiteModule( 1065): Considering local module com.google.android.gms.measurement.dynamite:0 and remote module com.google.android.gms.measurement.dynamite:0
+I/ActivityThread( 1065): Pub com.facebook.app.FacebookContentProvider291645598276138: com.facebook.FacebookContentProvider
+I/ActivityThread( 1065): Pub com.wigoal.eyeguard.FacebookInitProvider: com.facebook.internal.FacebookInitProvider
+W/GooglePlayServicesUtil( 1065): Google Play Store is missing.
+I/DynamiteModule( 1065): Considering local module com.google.android.gms.ads.dynamite:310 and remote module com.google.android.gms.ads.dynamite:0
+I/DynamiteModule( 1065): Selected local version of com.google.android.gms.ads.dynamite
+W/Ads     ( 1065): #007 Could not call remote method. @28
+W/Ads     ( 1065): com.google.android.gms.internal.ads.zzaon: com.google.android.gms.dynamite.DynamiteModule$LoadingException: Failed to instantiate module class: com.google.android.gms.ads.measurement.DynamiteMeasurementManager
+W/Ads     ( 1065): 	at com.google.android.gms.internal.ads.zzaol.zza(Unknown Source)
+W/Ads     ( 1065): 	at com.google.android.gms.internal.ads.zzxt.zza(Unknown Source)
+W/Ads     ( 1065): 	at com.google.android.gms.internal.ads.zzxu.run(Unknown Source)
+W/Ads     ( 1065): 	at java.lang.Thread.run(Thread.java:856)
+W/Ads     ( 1065): Caused by: com.google.android.gms.dynamite.DynamiteModule$LoadingException: Failed to instantiate module class: com.google.android.gms.ads.measurement.DynamiteMeasurementManager
+W/Ads     ( 1065): 	at com.google.android.gms.dynamite.DynamiteModule.instantiate(Unknown Source)
+W/Ads     ( 1065): 	at com.google.android.gms.internal.ads.zzaol.zza(Unknown Source)
+W/Ads     ( 1065): 	... 3 more
+W/Ads     ( 1065): Caused by: java.lang.ClassNotFoundException: com.google.android.gms.ads.measurement.DynamiteMeasurementManager
+W/Ads     ( 1065): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:65)
+W/Ads     ( 1065): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:501)
+W/Ads     ( 1065): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:461)
+W/Ads     ( 1065): 	at com.google.android.gms.dynamite.DynamiteModule.instantiate(Unknown Source)
+W/Ads     ( 1065): 	... 4 more
+W/Ads     ( 1065): Data collection startup failed. No data will be collected.
+W/Ads     ( 1065): com.google.android.gms.dynamite.DynamiteModule$LoadingException: No acceptable module found. Local version is 0 and remote version is 0.
+W/Ads     ( 1065): 	at com.google.android.gms.dynamite.DynamiteModule.load(Unknown Source)
+W/Ads     ( 1065): 	at com.google.android.gms.internal.measurement.zzem.zzg(Unknown Source)
+W/Ads     ( 1065): 	at com.google.android.gms.internal.measurement.zzen.zzfy(Unknown Source)
+W/Ads     ( 1065): 	at com.google.android.gms.internal.measurement.zzem$zzb.run(Unknown Source)
+W/Ads     ( 1065): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+W/Ads     ( 1065): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+W/Ads     ( 1065): 	at java.lang.Thread.run(Thread.java:856)
+W/Ads     ( 1065): Failed to connect to measurement client.
+E/dalvikvm( 1065): Could not find class 'android.view.autofill.AutofillManager', referenced from method com.facebook.internal.Utility.isAutofillAvailable
+W/dalvikvm( 1065): VFY: unable to resolve const-class 2916 (Landroid/view/autofill/AutofillManager;) in Lcom/facebook/internal/Utility;
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f6465762f7572616e646f6d", "id": "1018069571" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "79efbfbd124c1312efbfbdefbfbd3cefbfbdefbfbd0aefbfbd67efbfbd24efbfbd0aefbfbdefbfbd", "id": "1018069571" } }
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "16" } }
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "19" } }
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f6465762f7572616e646f6d", "id": "399356717" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "66731eefbfbdcc9aefbfbd614078efbfbd16373e180de4808defbfbd", "id": "399356717" } }
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f636f6d2e66616365626f6f6b2e73646b2e6170704576656e74507265666572656e6365732e786d6c", "id": "164761571" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22616e6f6e796d6f75734170704465766963654755494422", "id": "164761571" } }
+W/ActivityManager(  220): Unable to start service Intent { act=com.google.android.gms.ads.identifier.service.START pkg=com.google.android.gms }: not found
+W/GooglePlayServicesUtil( 1065): Google Play Store is missing.
+W/GooglePlayServicesUtil( 1065): Google Play Store is missing.
+W/dalvikvm( 1065): VFY: unable to resolve virtual method 161: Landroid/app/Activity;.isInMultiWindowMode ()Z
+W/dalvikvm( 1065): VFY: unable to resolve virtual method 2084: Landroid/os/Bundle;.putBinder (Ljava/lang/String;Landroid/os/IBinder;)V
+W/dalvikvm( 1065): VFY: unable to resolve static method 2390: Landroid/security/NetworkSecurityPolicy;.getInstance ()Landroid/security/NetworkSecurityPolicy;
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f61646d6f622e786d6c", "id": "1238591907" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c6c6f6e67206e616d653d2266697273745f61645f7265715f74696d655f6d73222076616c", "id": "1238591907" } }
+W/dalvikvm( 1065): VFY: unable to resolve virtual method 1050: Landroid/content/pm/PackageManager;.isInstantApp ()Z
+I/tag     ( 1065): sdk into
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "1964752876" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "1964752876" } }
+W/DroidBox( 1065): DroidBox: { "ServiceStart": { "name": "com.ad.s.dv.js" } }
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f70726f632f6d656d696e666f", "id": "714366895" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "4d656d546f74616c3a202020202020202020373438393634206b420a4d656d467265653a20202020202020202020343430383634206b420a427566666572733a20202020202020202020202035383234206b420a4361636865643a202020202020202020", "id": "714366895" } }
+I/tag     ( 1065): è¿›å…¥js æœåŠ¡com.wigoal.eyeguard.application.MyApplication@b3df13f0
+I/tag     ( 1065): Intent { cmp=com.wigoal.eyeguard/com.ad.s.dv.js (has extras) }è¿›å…¥äº†onStartCommandtruecom.wigoal.eyeguard.application.MyApplication@b3df13f0
+I/tag     ( 1065): parame:{androidId=25a0d0c0761b3b48, NetState=1, times=1718098237499, UID=, subid=181204}
+I/tag     ( 1065): ===============
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "encryption", "algorithm": "DES", "data": "{"androidId":"25a0d0c0761b3b48","NetState":"1","times":"1718098237499","UID":"","subid":"181204"}" } }
+I/tag     ( 1065): Intent { cmp=com.wigoal.eyeguard/com.ad.s.dv.js (has extras) }è¿›å…¥äº†onStartCommandtruecom.wigoal.eyeguard.application.MyApplication@b3df13f0
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "17426273" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "17426273" } }
+D/webviewglue( 1065): nativeDestroy view: 0xb8613e88
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "35.167.75.20", "destport": "9082", "fd": "31" } }
+W/DroidBox( 1065): DroidBox: { "SendNet": { "operation": "send", "data": "504f5354202f2f6f76732f637573746f6d65722f686561727442656174322e646f20485454502f312e310d0a436f6e74656e742d547970653a20746578742f706c61696e0d0a557365722d4167656e743a2044616c76696b2f312e362e3020284c696e75", "desthost": "35.167.75.20", "destport": "9082" , "fd": "31"} }
+E/GraphResponse( 1065): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "34" } }
+W/DroidBox( 1065): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "485454502f312e3120323030204f4b0d0a5365727665723a206f70656e72657374792f312e31372e382e320d0a446174653a205475652c203131204a756e20323032342031323a33303a333720474d540d0a436f6e74656e742d547970653a2074657874", "srcport": "9082", "fd": "35" } }
+W/DroidBox( 1065): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "756e6b65640d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a0d0a32630d0a487134714438763042364c347267644d575659726d657a45736f327438733732746d6645697961755865453d0d0a300d0a0d0a742d547970653a2074657874", "srcport": "9082", "fd": "35" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "DES", "data": "{ "status": "1","code":1}" } }
+I/tag     ( 1065): responseStr:{ "status": "1","code":1}
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "DES", "data": "{ "status": "1","code":1}" } }
+I/tag     ( 1065): ä¸‹å‘ï¼š{ "status": "1","code":1}
+E/GraphResponse( 1065): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f636f6d2e7769676f616c2e65796567756172645f707265666572656e6365732e786d6c", "id": "60610545" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "read", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c737472696e67206e616d653d22636f6d2e66616365626f6f6b2e6170706576656e74732e", "id": "60610545" } }
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "40" } }
+E/GraphResponse( 1065): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+E/GraphResponse( 1065): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f636f6d2e66616365626f6f6b2e73646b2e6174747269627574696f6e547261636b696e672e786d6c", "id": "451007263" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c6c6f6e67206e616d653d2232393136343535393832373631333870696e67222076616c75", "id": "451007263" } }
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "102.132.97.18", "destport": "443", "fd": "46" } }
+E/GraphResponse( 1065): {HttpStatus: 403, errorCode: 8, subErrorCode: -1, errorType: GraphInsecureException, errorMessage: TLS versions older than v1.2 are not supported.}
+W/dalvikvm(  220): DroidBox: { "FdAccess": { "path": "2f70726f632f313036352f636d646c696e65", "id": "1541829504" } }
+W/DroidBox(  220): DroidBox: { "FileRW": { "operation": "read", "data": "636f6d2e7769676f616c2e65796567756172640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f7374726163655f6d6f6e6b65792e747874006434623833", "id": "1541829504" } }
+I/tag     ( 1065): parame:{androidId=25a0d0c0761b3b48, NetState=1, times=1718098364187, UID=, subid=181204}
+I/tag     ( 1065): ===============
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "encryption", "algorithm": "DES", "data": "{"androidId":"25a0d0c0761b3b48","NetState":"1","times":"1718098364187","UID":"","subid":"181204"}" } }
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "535523228" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "535523228" } }
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "35.167.75.20", "destport": "9082", "fd": "52" } }
+W/DroidBox( 1065): DroidBox: { "SendNet": { "operation": "send", "data": "504f5354202f2f6f76732f637573746f6d65722f686561727442656174322e646f20485454502f312e310d0a436f6e74656e742d547970653a20746578742f706c61696e0d0a557365722d4167656e743a2044616c76696b2f312e362e3020284c696e75", "desthost": "35.167.75.20", "destport": "9082" , "fd": "52"} }
+W/DroidBox( 1065): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "485454502f312e3120323030204f4b0d0a5365727665723a206f70656e72657374792f312e31372e382e320d0a446174653a205475652c203131204a756e20323032342031323a33323a343420474d540d0a436f6e74656e742d547970653a2074657874", "srcport": "9082", "fd": "52" } }
+W/DroidBox( 1065): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "756e6b65640d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a0d0a32630d0a487134714438763042364c347267644d575659726d657a45736f327438733732746d6645697961755865453d0d0a300d0a0d0a742d547970653a2074657874", "srcport": "9082", "fd": "52" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "DES", "data": "{ "status": "1","code":1}" } }
+I/tag     ( 1065): responseStr:{ "status": "1","code":1}
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "DES", "data": "{ "status": "1","code":1}" } }
+I/tag     ( 1065): ä¸‹å‘ï¼š{ "status": "1","code":1}
+I/tag     ( 1065): parame:{androidId=25a0d0c0761b3b48, NetState=1, times=1718098485870, UID=, subid=181204}
+I/tag     ( 1065): ===============
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "encryption", "algorithm": "DES", "data": "{"androidId":"25a0d0c0761b3b48","NetState":"1","times":"1718098485870","UID":"","subid":"181204"}" } }
+W/dalvikvm( 1065): DroidBox: { "FdAccess": { "path": "2f646174612f646174612f636f6d2e7769676f616c2e65796567756172642f7368617265645f70726566732f73705f6d69632e786d6c", "id": "452669044" } }
+W/DroidBox( 1065): DroidBox: { "FileRW": { "operation": "write", "data": "3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d277574662d3827207374616e64616c6f6e653d2779657327203f3e0a3c6d61703e0a3c626f6f6c65616e206e616d653d226865617274626561745f6f6b222076616c75653d2266", "id": "452669044" } }
+W/DroidBox( 1065): DroidBox: { "OpenNet": { "desthost": "35.167.75.20", "destport": "9082", "fd": "56" } }
+W/DroidBox( 1065): DroidBox: { "SendNet": { "operation": "send", "data": "504f5354202f2f6f76732f637573746f6d65722f686561727442656174322e646f20485454502f312e310d0a436f6e74656e742d547970653a20746578742f706c61696e0d0a557365722d4167656e743a2044616c76696b2f312e362e3020284c696e75", "desthost": "35.167.75.20", "destport": "9082" , "fd": "56"} }
+W/DroidBox( 1065): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "485454502f312e3120323030204f4b0d0a5365727665723a206f70656e72657374792f312e31372e382e320d0a446174653a205475652c203131204a756e20323032342031323a33343a343520474d540d0a436f6e74656e742d547970653a2074657874", "srcport": "9082", "fd": "56" } }
+W/DroidBox( 1065): DroidBox: { "RecvNet": { "srchost": "35.167.75.20", "data": "756e6b65640d0a436f6e6e656374696f6e3a206b6565702d616c6976650d0a0d0a32630d0a487134714438763042364c347267644d575659726d657a45736f327438733732746d6645697961755865453d0d0a300d0a0d0a742d547970653a2074657874", "srcport": "9082", "fd": "56" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "DES", "data": "{ "status": "1","code":1}" } }
+I/tag     ( 1065): responseStr:{ "status": "1","code":1}
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "keyalgo", "key": "99, 111, 109, 46, 97, 110, 100, 114", "algorithm": "DES" } }
+W/DroidBox( 1065): DroidBox: { "CryptoUsage": { "operation": "decryption", "algorithm": "DES", "data": "{ "status": "1","code":1}" } }
+I/tag     ( 1065): ä¸‹å‘ï¼š{ "status": "1","code":1}

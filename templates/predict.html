@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAroid</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb;
+        }
+
+        .loader {
+            border-top-color: #3498db;
+            animation: spinner 1.5s linear infinite;
+        }
+
+        @keyframes spinner {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .fancy-loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .header {
+            background-image: url('https://repository-images.githubusercontent.com/306105797/9ab95f1e-2078-4833-8019-0371434d8e7a');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .header span {
+            font-size: 5rem;
+            font-weight: bold;
+        }
+
+        .subheader {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.25rem;
+            color: #6b7280;
+        }
+
+        .divider {
+            width: 50%;
+            height: 2px;
+            background-color: #e5e7eb;
+            margin: 20px auto;
+        }
+
+        .main-content {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .upload-section {
+            margin-top: 40px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .upload-section input[type="file"] {
+            padding: 10px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            background-color: #f9fafb;
+        }
+
+        .upload-section button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #6366f1;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .upload-section button:hover {
+            background-color: #4f46e5;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="#" class="flex items-center">
+                <img src="https://repository-images.githubusercontent.com/306105797/9ab95f1e-2078-4833-8019-0371434d8e7a"
+                    class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">ANAroid</span>
+            </a>
+            <div class="flex md:order-2">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                    started</button>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="/"
+                            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="/dashboard"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <span>ANAroid</span>
+    </header>
+
+    <div class="subheader">
+        Analyse suspicious APK's to detect whether they are malware or not.
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="main-content">
+        <img src="/static/images/security.png" alt="Security icon" class="my-4 h-48 w-48 mx-auto">
+        <div class="upload-section">
+            <form id="uploadForm" enctype="multipart/form-data" class="flex flex-col justify-center items-center w-full space-y-4">
+                <div id="loader" class="hidden flex justify-center items-center w-full mb-4">
+                    <div class="fancy-loader"></div>
+                </div>
+                <input type="file" name="file" id="file" class="px-4 py-1 text-sm">
+                <button type="button" id="uploadBtn" class="px-4 py-2 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:cursor-pointer hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Upload File</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        document.getElementById('uploadBtn').addEventListener('click', function () {
+            var fileInput = document.getElementById('file');
+            if (fileInput.files.length === 0) {
+                alert('Please select a file before clicking upload.');
+                return;
+            }
+            var file = fileInput.files[0];
+            var formData = new FormData();
+            formData.append('file', file);
+            document.getElementById('loader').classList.remove('hidden'); // Show loader
+            axios.post('/api/upload_file', formData)
+                .then(function (response) {
+                    console.log('File uploaded successfully');
+                    runExtraction(); // Trigger extraction process
+                })
+                .catch(function (error) {
+                    document.getElementById('loader').classList.add('hidden'); // Hide loader on error
+                    console.error('Error uploading file', error);
+                });
+        });
+
+        function runExtraction() {
+            axios.get('/api/run_extraction')
+                .then(function (response) {
+                    console.log('Extraction initiated successfully');
+                    pollExtractionStatus();
+                })
+                .catch(function (error) {
+                    document.getElementById('loader').classList.add('hidden'); // Hide loader on error
+                    console.error('Error running extraction', error);
+                });
+        }
+
+        function pollExtractionStatus() {
+            const interval = 5000; // Poll every 5 seconds
+
+            const poll = setInterval(() => {
+                axios.get('/api/check_status')
+                    .then(function (response) {
+                        const status = response.data.completed;
+                        if (status) {
+                            clearInterval(poll);  // Stop polling
+                            document.getElementById('loader').classList.add('hidden'); // Hide loader
+                            console.log('Extraction completed successfully');
+                            getAnalysicResult();  // Call the analysis result function
+                        } else {
+                            console.log('Extraction is still in progress...');
+                        }
+                    })
+                    .catch(function (error) {
+                        clearInterval(poll);  // Stop polling on error
+                        document.getElementById('loader').classList.add('hidden'); // Hide loader
+                        console.error('Error checking extraction status', error);
+                    });
+            }, interval);
+        }
+
+        function getAnalysicResult() {
+            axios.get('/api/analysic_result')
+                .then(function (response) {
+                    console.log('Analysis result:', response.data);
+                    document.getElementById('loader').classList.add('hidden'); // Hide loader after result
+                    showPopup(response.data.conclusion);
+                })
+                .catch(function (error) {
+                    console.error('Error fetching analysis result', error);
+                    document.getElementById('loader').classList.add('hidden'); // Hide loader on error
+                });
+        }
+
+        function showPopup(conclusion) {
+            alert('The file is detected as ' + conclusion + '.');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+///////////////////////////////////////////////////////////////
+//////////////// FILE ANALYSIS PROCESS CHECKER ////////////////
+///////////////////////////////////////////////////////////////
+
+
+WORKING DIRECTORY: /home/abood/FINALPROJECT/static/files
+OUTPUT DIRECTORY: /home/abood/FINALPROJECT/reports
+
+
+
+/home/abood/FINALPROJECT/static/files/amcp-latest.apk: SUCCESSFUL !!!
+/home/abood/FINALPROJECT/static/files/android_blackmarket.apk: SUCCESSFUL !!!
+/home/abood/FINALPROJECT/static/files/bd9ce9d57098c5ac5d4b83feb93fdaf0d598fe15.apk: SUCCESSFUL !!!
+/home/abood/FINALPROJECT/static/files/Amazon_Appstore-release.apk: SUCCESSFUL !!!
+/home/abood/FINALPROJECT/static/files/br.com.f2b.android.reader.apk: SUCCESSFUL !!!
+/home/abood/FINALPROJECT/static/files/org.sharksoft.appmanager.apk: SUCCESSFUL !!!
+/home/abood/FINALPROJECT/static/files/com.appbuilder.u12111p16178.apk: FAILED - No folder detected !!!
+
+
+
+Number of file successed: 6 (0%)
+Number of file failed: 1 (100%)
